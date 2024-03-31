@@ -1,0 +1,196 @@
+2024-03-31T01:19:34Z Ignoring unknown configuration value bitcoin_rpc_username
+2024-03-31T01:19:34Z Ignoring unknown configuration value bitcoin_rpc_password
+2024-03-31T01:19:34Z Bitcoin Core version v25.0.0 (release build)
+2024-03-31T01:19:34Z Using the 'x86_shani(1way,2way)' SHA256 implementation
+2024-03-31T01:19:34Z Using RdSeed as an additional entropy source
+2024-03-31T01:19:34Z Using RdRand as an additional entropy source
+2024-03-31T01:19:34Z Default data directory /home/anonchickenlegs/.bitcoin
+2024-03-31T01:19:34Z Using data directory /mnt/e/bitcoin/.bitcoin
+2024-03-31T01:19:34Z Config file: /mnt/e/bitcoin/.bitcoin/bitcoin.conf
+2024-03-31T01:19:34Z Config file arg: dbcache="25600"
+2024-03-31T01:19:34Z Config file arg: maxconnections="50"
+2024-03-31T01:19:34Z Config file arg: txindex="1"
+2024-03-31T01:19:34Z Command-line arg: conf="/mnt/e/bitcoin/.bitcoin/bitcoin.conf"
+2024-03-31T01:19:34Z Command-line arg: datadir="/mnt/e/bitcoin/.bitcoin"
+2024-03-31T01:19:34Z Using at most 50 automatic connections (1024 file descriptors available)
+2024-03-31T01:19:34Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-03-31T01:19:34Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-03-31T01:19:34Z Script verification uses 15 additional threads
+2024-03-31T01:19:34Z scheduler thread start
+2024-03-31T01:19:34Z Binding RPC on address ::1 port 8332
+2024-03-31T01:19:34Z Binding RPC on address 127.0.0.1 port 8332
+2024-03-31T01:19:34Z [http] creating work queue of depth 16
+2024-03-31T01:19:34Z Using random cookie authentication.
+2024-03-31T01:19:34Z Generated RPC authentication cookie /mnt/e/bitcoin/.bitcoin/.cookie
+2024-03-31T01:19:34Z [http] starting 4 worker threads
+2024-03-31T01:19:34Z Using wallet directory /mnt/e/bitcoin/.bitcoin/wallets
+2024-03-31T01:19:34Z init message: Verifying wallet(s)…
+2024-03-31T01:19:34Z Using /16 prefix for IP bucketing
+2024-03-31T01:19:34Z init message: Loading P2P addresses…
+2024-03-31T01:19:34Z Loaded 60068 addresses from peers.dat  444ms
+2024-03-31T01:19:34Z init message: Loading banlist…
+2024-03-31T01:19:34Z SetNetworkActive: true
+2024-03-31T01:19:35Z Cache configuration:
+2024-03-31T01:19:35Z * Using 2.0 MiB for block index database
+2024-03-31T01:19:35Z * Using 1024.0 MiB for transaction index database
+2024-03-31T01:19:35Z * Using 8.0 MiB for chain state database
+2024-03-31T01:19:35Z * Using 15350.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2024-03-31T01:19:35Z init message: Loading block index…
+2024-03-31T01:19:35Z Assuming ancestors of block 000000000000000000035c3f0d31e71a5ee24c5aaf3354689f65bd7b07dee632 have valid signatures.
+2024-03-31T01:19:35Z Setting nMinimumChainWork=000000000000000000000000000000000000000044a50fe819c39ad624021859
+2024-03-31T01:19:35Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/blocks/index
+2024-03-31T01:19:35Z Opened LevelDB successfully
+2024-03-31T01:19:35Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/blocks/index: 0000000000000000
+2024-03-31T01:19:46Z LoadBlockIndexDB: last block file = 4199
+2024-03-31T01:19:46Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=67, size=118304886, heights=836914...837023, time=2024-03-30...2024-03-30)
+2024-03-31T01:19:46Z Checking all blk files are present...
+2024-03-31T01:20:03Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-03-31T01:20:03Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/chainstate
+2024-03-31T01:20:03Z Opened LevelDB successfully
+2024-03-31T01:20:03Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/chainstate: 28807b46b147c7fc
+2024-03-31T01:20:03Z Loaded best chain: hashBestChain=0000000000000000000072c29e3e797dd62f4adc794effbea9ca0358b6de1d2f height=837004 date=2024-03-30T19:40:18Z progress=0.999924
+2024-03-31T01:20:03Z [snapshot] allocating all cache to the IBD chainstate
+2024-03-31T01:20:03Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/chainstate
+2024-03-31T01:20:03Z Opened LevelDB successfully
+2024-03-31T01:20:03Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/chainstate: 28807b46b147c7fc
+2024-03-31T01:20:03Z [Chainstate [ibd] @ height 837004 (0000000000000000000072c29e3e797dd62f4adc794effbea9ca0358b6de1d2f)] resized coinsdb cache to 8.0 MiB
+2024-03-31T01:20:03Z [Chainstate [ibd] @ height 837004 (0000000000000000000072c29e3e797dd62f4adc794effbea9ca0358b6de1d2f)] resized coinstip cache to 15350.0 MiB
+2024-03-31T01:20:03Z init message: Verifying blocks…
+2024-03-31T01:20:03Z Verifying last 6 blocks at level 3
+2024-03-31T01:20:03Z Verification progress: 0%
+2024-03-31T01:20:26Z Verification progress: 16%
+2024-03-31T01:20:41Z Verification progress: 33%
+2024-03-31T01:20:54Z Verification progress: 50%
+2024-03-31T01:21:04Z Verification progress: 66%
+2024-03-31T01:21:12Z Verification progress: 83%
+2024-03-31T01:21:25Z Verification progress: 99%
+2024-03-31T01:21:25Z Verification: No coin database inconsistencies in last 6 blocks (12952 transactions)
+2024-03-31T01:21:25Z  block index          110369ms
+2024-03-31T01:21:25Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/indexes/txindex
+2024-03-31T01:21:25Z Opened LevelDB successfully
+2024-03-31T01:21:25Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/indexes/txindex: 0000000000000000
+2024-03-31T01:21:25Z Setting NODE_NETWORK on non-prune mode
+2024-03-31T01:21:25Z txindex thread start
+2024-03-31T01:21:25Z txindex is enabled at height 837004
+2024-03-31T01:21:25Z txindex thread exit
+2024-03-31T01:21:25Z loadblk thread start
+2024-03-31T01:21:25Z block tree size = 837024
+2024-03-31T01:21:25Z nBestHeight = 837004
+2024-03-31T01:21:25Z torcontrol thread start
+2024-03-31T01:21:25Z Bound to 127.0.0.1:8334
+2024-03-31T01:21:25Z Bound to [::]:8333
+2024-03-31T01:21:25Z Bound to 0.0.0.0:8333
+2024-03-31T01:21:25Z 0 block-relay-only anchors will be tried for connections.
+2024-03-31T01:21:25Z init message: Starting network threads…
+2024-03-31T01:21:25Z net thread start
+2024-03-31T01:21:25Z dnsseed thread start
+2024-03-31T01:21:25Z Waiting 300 seconds before querying DNS seeds.
+2024-03-31T01:21:25Z opencon thread start
+2024-03-31T01:21:25Z msghand thread start
+2024-03-31T01:21:25Z addcon thread start
+2024-03-31T01:21:39Z UpdateTip: new best=000000000000000000021a417c7e5323de79951865c1c8ec85fa22e95f269bd6 height=837005 version=0x2bfc2000 log2_work=94.829314 tx=982471036 date='2024-03-30T19:44:51Z' progress=0.999924 cache=2.0MiB(13513txo)
+2024-03-31T01:21:53Z UpdateTip: new best=0000000000000000000265802ab318df29daebcc7caa9432681d586f6c54e7c2 height=837006 version=0x30000000 log2_work=94.829329 tx=982472396 date='2024-03-30T19:48:32Z' progress=0.999925 cache=3.7MiB(25374txo)
+2024-03-31T01:22:06Z UpdateTip: new best=00000000000000000000db13a7a13c9209a0ca3c6100a00f460e344a6d7e8be9 height=837007 version=0x20010000 log2_work=94.829343 tx=982475173 date='2024-03-30T20:01:51Z' progress=0.999928 cache=5.4MiB(38766txo)
+2024-03-31T01:22:18Z UpdateTip: new best=00000000000000000001b0922ce9774bb9b94abe3e203f0032c250512536dd3c height=837008 version=0x3fff0000 log2_work=94.829358 tx=982477120 date='2024-03-30T20:03:32Z' progress=0.999929 cache=6.7MiB(46514txo)
+2024-03-31T01:22:40Z UpdateTip: new best=0000000000000000000082a346e70a91c2718f184de58304183eeaab6945169d height=837009 version=0x2001e000 log2_work=94.829373 tx=982477543 date='2024-03-30T20:05:01Z' progress=0.999929 cache=8.1MiB(57947txo)
+2024-03-31T01:22:51Z UpdateTip: new best=00000000000000000000c8f40482bfcebb02088cac9366365190d133e9a83ade height=837010 version=0x20400000 log2_work=94.829387 tx=982480859 date='2024-03-30T20:36:37Z' progress=0.999936 cache=10.1MiB(73652txo)
+2024-03-31T01:22:51Z init message: Done loading
+2024-03-31T01:23:01Z UpdateTip: new best=00000000000000000002cb19aa49582630308792f99edd3d24761c47b28df2bf height=837011 version=0x20000000 log2_work=94.829402 tx=982484289 date='2024-03-30T21:15:50Z' progress=0.999945 cache=12.9MiB(90139txo)
+2024-03-31T01:23:11Z UpdateTip: new best=000000000000000000034e977d34e6326138c5a5a66273c06f9b4708d7a6fe97 height=837012 version=0x20000000 log2_work=94.829417 tx=982487002 date='2024-03-30T21:20:34Z' progress=0.999946 cache=14.3MiB(101325txo)
+2024-03-31T01:23:22Z UpdateTip: new best=00000000000000000001d686bbb7ad4918b0d9e1d41578675d2fbacd41c0cbb4 height=837013 version=0x20000000 log2_work=94.829431 tx=982489660 date='2024-03-30T21:32:41Z' progress=0.999948 cache=16.0MiB(113981txo)
+2024-03-31T01:23:31Z UpdateTip: new best=000000000000000000010e79a5fc7db29880be204216ff0ad1332eb4f1f07c5d height=837014 version=0x24afe000 log2_work=94.829446 tx=982492008 date='2024-03-30T21:36:57Z' progress=0.999949 cache=17.3MiB(124084txo)
+2024-03-31T01:23:31Z UpdateTip: new best=000000000000000000034717fddc741f514cd4545c47c8d43fba67199be34fea height=837015 version=0x215a8000 log2_work=94.829460 tx=982492009 date='2024-03-30T21:37:18Z' progress=0.999949 cache=17.3MiB(124085txo)
+2024-03-31T01:23:39Z UpdateTip: new best=00000000000000000000150440489dc2e7fd265cf03330ec397f1d05750020ce height=837016 version=0x30000000 log2_work=94.829475 tx=982494092 date='2024-03-30T21:46:42Z' progress=0.999951 cache=18.4MiB(132527txo)
+2024-03-31T01:23:49Z UpdateTip: new best=00000000000000000002771ba52c4930970ac61c3a2382746320340999969995 height=837017 version=0x2261a000 log2_work=94.829490 tx=982497319 date='2024-03-30T22:13:16Z' progress=0.999957 cache=20.3MiB(147404txo)
+2024-03-31T01:23:58Z UpdateTip: new best=00000000000000000002752d46d7e31a53dcc71c3c60e576c11f60a982c8a32a height=837018 version=0x26f66000 log2_work=94.829504 tx=982499072 date='2024-03-30T22:16:22Z' progress=0.999958 cache=21.4MiB(155690txo)
+2024-03-31T01:24:12Z UpdateTip: new best=00000000000000000002ba7a63bbc94fc2ec4512928de8339c70e24d82e4479e height=837019 version=0x20000000 log2_work=94.829519 tx=982500634 date='2024-03-30T22:22:46Z' progress=0.999959 cache=22.5MiB(164625txo)
+2024-03-31T01:24:19Z UpdateTip: new best=00000000000000000002b2961bab292a724b1b486ec252ee0ff23ffd1d18d5f2 height=837020 version=0x247c2000 log2_work=94.829534 tx=982502405 date='2024-03-30T22:27:40Z' progress=0.999960 cache=23.7MiB(172816txo)
+2024-03-31T01:24:26Z UpdateTip: new best=000000000000000000031164b04dc2d0f54fb9ad7d3217f8b0902373e2071573 height=837021 version=0x26000004 log2_work=94.829548 tx=982505167 date='2024-03-30T22:46:45Z' progress=0.999965 cache=26.5MiB(184007txo)
+2024-03-31T01:24:33Z UpdateTip: new best=00000000000000000002354ff62b014cdff9f3f4ac24464b688120855e5aff2e height=837022 version=0x20200000 log2_work=94.829563 tx=982507025 date='2024-03-30T22:54:41Z' progress=0.999966 cache=27.4MiB(190404txo)
+2024-03-31T01:24:42Z UpdateTip: new best=00000000000000000000426ee47999564639b65119e3d35ab1a19045f0c6b69f height=837023 version=0x20000000 log2_work=94.829578 tx=982509767 date='2024-03-30T22:58:28Z' progress=0.999967 cache=28.0MiB(196054txo)
+2024-03-31T01:24:42Z Leaving InitialBlockDownload (latching to false)
+2024-03-31T01:24:45Z New outbound peer connected: version: 70016, blocks=837038, peer=4 (outbound-full-relay)
+2024-03-31T01:24:45Z Saw new header hash=0000000000000000000054d934ea7f1649c61e4f565fee3cae176e675b9cd709 height=837024
+2024-03-31T01:24:45Z Saw new header hash=00000000000000000000abd8d1b84939f0f696607483f54d4d7f46ef44010498 height=837025
+2024-03-31T01:24:45Z Saw new header hash=0000000000000000000082b1c07523d97f9313f030ecd350605a4ed01327bbd0 height=837026
+2024-03-31T01:24:45Z Saw new header hash=0000000000000000000045e5be9d6cb593434598962823016720b069e22cd465 height=837027
+2024-03-31T01:24:45Z Saw new header hash=00000000000000000001326c50ff20c42698afa78346399c49d6081818ce0973 height=837028
+2024-03-31T01:24:45Z Saw new header hash=00000000000000000001a27fc0e2a8fe14ed7e0730c8264a4546e904323b41aa height=837029
+2024-03-31T01:24:45Z Saw new header hash=00000000000000000002610a20d72508804522f9d120f441f711deb8323e59cd height=837030
+2024-03-31T01:24:45Z Saw new header hash=0000000000000000000100d7b7219cd7d8b441fe53874f6074dd18848c53fa2e height=837031
+2024-03-31T01:24:45Z Saw new header hash=000000000000000000019f23e97efb7d1b9c9883f6b2f9fe4c01809773a9da02 height=837032
+2024-03-31T01:24:45Z Saw new header hash=0000000000000000000073e2ececcc8642ef5511b270176b95493c841908b891 height=837033
+2024-03-31T01:24:45Z Saw new header hash=00000000000000000002ed4c124690c6184bd47d82f4f2187c2767f963227d13 height=837034
+2024-03-31T01:24:45Z Saw new header hash=000000000000000000032ce80b76739563c40d5b46fe5823bcadcfea49d77ea3 height=837035
+2024-03-31T01:24:45Z Saw new header hash=00000000000000000000b0d3842231e09a5799efa270e4c8ed8e62b094d45b6e height=837036
+2024-03-31T01:24:45Z Saw new header hash=000000000000000000023c47e4f9b706d38865faf57420bf21af4308541f88c6 height=837037
+2024-03-31T01:24:45Z Saw new header hash=0000000000000000000336ff367bc8a232f575c1e5182513af5b9e984a6b3138 height=837038
+2024-03-31T01:24:46Z New outbound peer connected: version: 70016, blocks=0, peer=5 (outbound-full-relay)
+2024-03-31T01:24:46Z New outbound peer connected: version: 70016, blocks=837038, peer=6 (outbound-full-relay)
+2024-03-31T01:24:48Z New outbound peer connected: version: 70015, blocks=837038, peer=8 (outbound-full-relay)
+2024-03-31T01:24:49Z New outbound peer connected: version: 70016, blocks=837038, peer=10 (outbound-full-relay)
+2024-03-31T01:24:50Z New outbound peer connected: version: 70016, blocks=837038, peer=11 (outbound-full-relay)
+2024-03-31T01:24:50Z New outbound peer connected: version: 70016, blocks=837038, peer=12 (outbound-full-relay)
+2024-03-31T01:24:54Z P2P peers available. Skipped DNS seeding.
+2024-03-31T01:24:54Z dnsseed thread exit
+2024-03-31T01:25:02Z New outbound peer connected: version: 70016, blocks=837038, peer=14 (outbound-full-relay)
+2024-03-31T01:25:16Z New outbound peer connected: version: 70016, blocks=837038, peer=18 (outbound-full-relay)
+2024-03-31T01:25:26Z New outbound peer connected: version: 70016, blocks=837038, peer=20 (outbound-full-relay)
+2024-03-31T01:25:28Z New outbound peer connected: version: 70016, blocks=837038, peer=21 (outbound-full-relay)
+2024-03-31T01:25:46Z New outbound peer connected: version: 70016, blocks=837038, peer=22 (block-relay-only)
+2024-03-31T01:25:49Z New outbound peer connected: version: 70016, blocks=837038, peer=23 (block-relay-only)
+2024-03-31T01:26:40Z New outbound peer connected: version: 70016, blocks=837038, peer=24 (outbound-full-relay)
+2024-03-31T01:32:45Z Saw new header hash=000000000000000000027267a25980561da91b65c7602ba21ee26493e3413d75 height=837039
+2024-03-31T01:33:47Z New outbound peer connected: version: 70016, blocks=837038, peer=25 (block-relay-only)
+2024-03-31T01:34:46Z Timeout downloading block 0000000000000000000054d934ea7f1649c61e4f565fee3cae176e675b9cd709 from peer=4, disconnecting
+2024-03-31T01:34:57Z UpdateTip: new best=0000000000000000000054d934ea7f1649c61e4f565fee3cae176e675b9cd709 height=837024 version=0x20006000 log2_work=94.829592 tx=982511557 date='2024-03-30T23:02:09Z' progress=0.999966 cache=70.3MiB(490924txo)
+2024-03-31T01:34:57Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:06Z UpdateTip: new best=00000000000000000000abd8d1b84939f0f696607483f54d4d7f46ef44010498 height=837025 version=0x20002000 log2_work=94.829607 tx=982514707 date='2024-03-30T23:36:52Z' progress=0.999973 cache=72.1MiB(504945txo)
+2024-03-31T01:35:06Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:06Z New outbound peer connected: version: 70016, blocks=837039, peer=26 (outbound-full-relay)
+2024-03-31T01:35:13Z UpdateTip: new best=0000000000000000000082b1c07523d97f9313f030ecd350605a4ed01327bbd0 height=837026 version=0x30012000 log2_work=94.829621 tx=982517932 date='2024-03-30T23:49:07Z' progress=0.999976 cache=73.6MiB(516565txo)
+2024-03-31T01:35:13Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:20Z UpdateTip: new best=0000000000000000000045e5be9d6cb593434598962823016720b069e22cd465 height=837027 version=0x20006000 log2_work=94.829636 tx=982520448 date='2024-03-30T23:50:28Z' progress=0.999976 cache=74.5MiB(523049txo)
+2024-03-31T01:35:20Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:28Z UpdateTip: new best=00000000000000000001326c50ff20c42698afa78346399c49d6081818ce0973 height=837028 version=0x23f1c000 log2_work=94.829651 tx=982523523 date='2024-03-31T00:10:27Z' progress=0.999981 cache=75.9MiB(533849txo)
+2024-03-31T01:35:28Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:35Z UpdateTip: new best=00000000000000000001a27fc0e2a8fe14ed7e0730c8264a4546e904323b41aa height=837029 version=0x3fffe000 log2_work=94.829665 tx=982526363 date='2024-03-31T00:18:56Z' progress=0.999983 cache=76.9MiB(541582txo)
+2024-03-31T01:35:35Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:40Z UpdateTip: new best=00000000000000000002610a20d72508804522f9d120f441f711deb8323e59cd height=837030 version=0x20000000 log2_work=94.829680 tx=982528374 date='2024-03-31T00:22:50Z' progress=0.999984 cache=78.0MiB(548413txo)
+2024-03-31T01:35:40Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:44Z UpdateTip: new best=0000000000000000000100d7b7219cd7d8b441fe53874f6074dd18848c53fa2e height=837031 version=0x2001a000 log2_work=94.829695 tx=982531407 date='2024-03-31T00:26:19Z' progress=0.999984 cache=78.4MiB(552156txo)
+2024-03-31T01:35:44Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:51Z UpdateTip: new best=000000000000000000019f23e97efb7d1b9c9883f6b2f9fe4c01809773a9da02 height=837032 version=0x28000000 log2_work=94.829709 tx=982534557 date='2024-03-31T00:44:22Z' progress=0.999988 cache=79.8MiB(562799txo)
+2024-03-31T01:35:51Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:35:57Z UpdateTip: new best=0000000000000000000073e2ececcc8642ef5511b270176b95493c841908b891 height=837033 version=0x2455c000 log2_work=94.829724 tx=982536991 date='2024-03-31T00:56:58Z' progress=0.999991 cache=80.6MiB(569177txo)
+2024-03-31T01:35:57Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:36:04Z UpdateTip: new best=00000000000000000002ed4c124690c6184bd47d82f4f2187c2767f963227d13 height=837034 version=0x342e8000 log2_work=94.829738 tx=982538640 date='2024-03-31T00:58:33Z' progress=0.999992 cache=81.5MiB(575034txo)
+2024-03-31T01:36:04Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:36:08Z UpdateTip: new best=000000000000000000032ce80b76739563c40d5b46fe5823bcadcfea49d77ea3 height=837035 version=0x2a000000 log2_work=94.829753 tx=982542138 date='2024-03-31T01:04:21Z' progress=0.999993 cache=82.4MiB(581193txo)
+2024-03-31T01:36:08Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:36:09Z UpdateTip: new best=00000000000000000000b0d3842231e09a5799efa270e4c8ed8e62b094d45b6e height=837036 version=0x35254000 log2_work=94.829768 tx=982545927 date='2024-03-31T01:05:25Z' progress=0.999993 cache=83.2MiB(585763txo)
+2024-03-31T01:36:09Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:36:16Z UpdateTip: new best=000000000000000000023c47e4f9b706d38865faf57420bf21af4308541f88c6 height=837037 version=0x2000e000 log2_work=94.829782 tx=982548655 date='2024-03-31T01:15:29Z' progress=0.999995 cache=84.4MiB(594173txo)
+2024-03-31T01:36:16Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:36:19Z UpdateTip: new best=0000000000000000000336ff367bc8a232f575c1e5182513af5b9e984a6b3138 height=837038 version=0x27ffe000 log2_work=94.829797 tx=982552417 date='2024-03-31T01:17:08Z' progress=0.999996 cache=85.2MiB(598973txo)
+2024-03-31T01:36:22Z UpdateTip: new best=000000000000000000027267a25980561da91b65c7602ba21ee26493e3413d75 height=837039 version=0x28000000 log2_work=94.829812 tx=982554990 date='2024-03-31T01:32:30Z' progress=0.999999 cache=86.3MiB(607501txo)
+2024-03-31T01:36:22Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:36:45Z New outbound peer connected: version: 70015, blocks=837039, peer=27 (block-relay-only)
+2024-03-31T01:41:26Z New outbound peer connected: version: 70016, blocks=837039, peer=28 (block-relay-only)
+2024-03-31T01:41:53Z Saw new header hash=00000000000000000001da3bac7f017ee65e02916e5f84cb61c11c856b353cb1 height=837040
+2024-03-31T01:41:55Z UpdateTip: new best=00000000000000000001da3bac7f017ee65e02916e5f84cb61c11c856b353cb1 height=837040 version=0x2dbde000 log2_work=94.829826 tx=982557110 date='2024-03-31T01:41:45Z' progress=1.000000 cache=112.0MiB(765762txo)
+2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:44:24Z Imported mempool transactions from disk: 17747 succeeded, 2782 failed, 0 expired, 1 already there, 0 waiting for initial broadcast
+2024-03-31T01:44:24Z loadblk thread exit
+2024-03-31T01:45:17Z Saw new header hash=000000000000000000009a2598cae5a09d9fb71bf200c14125a771ec75114700 height=837041
+2024-03-31T01:45:23Z UpdateTip: new best=000000000000000000009a2598cae5a09d9fb71bf200c14125a771ec75114700 height=837041 version=0x20600000 log2_work=94.829841 tx=982558513 date='2024-03-31T01:44:52Z' progress=1.000000 cache=122.2MiB(843731txo)
+2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
+2024-03-31T01:46:48Z Disconnecting outbound peer 5 for old chain, best known block = <none>
+2024-03-31T01:46:49Z New outbound peer connected: version: 70016, blocks=837041, peer=29 (outbound-full-relay)
+2024-03-31T01:46:50Z New outbound peer connected: version: 70016, blocks=837041, peer=30 (outbound-full-relay)
