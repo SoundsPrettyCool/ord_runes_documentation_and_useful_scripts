@@ -1,196 +1,450 @@
-2024-03-31T01:19:34Z Ignoring unknown configuration value bitcoin_rpc_username
-2024-03-31T01:19:34Z Ignoring unknown configuration value bitcoin_rpc_password
-2024-03-31T01:19:34Z Bitcoin Core version v25.0.0 (release build)
-2024-03-31T01:19:34Z Using the 'x86_shani(1way,2way)' SHA256 implementation
-2024-03-31T01:19:34Z Using RdSeed as an additional entropy source
-2024-03-31T01:19:34Z Using RdRand as an additional entropy source
-2024-03-31T01:19:34Z Default data directory /home/anonchickenlegs/.bitcoin
-2024-03-31T01:19:34Z Using data directory /mnt/e/bitcoin/.bitcoin
-2024-03-31T01:19:34Z Config file: /mnt/e/bitcoin/.bitcoin/bitcoin.conf
-2024-03-31T01:19:34Z Config file arg: dbcache="25600"
-2024-03-31T01:19:34Z Config file arg: maxconnections="50"
-2024-03-31T01:19:34Z Config file arg: txindex="1"
-2024-03-31T01:19:34Z Command-line arg: conf="/mnt/e/bitcoin/.bitcoin/bitcoin.conf"
-2024-03-31T01:19:34Z Command-line arg: datadir="/mnt/e/bitcoin/.bitcoin"
-2024-03-31T01:19:34Z Using at most 50 automatic connections (1024 file descriptors available)
-2024-03-31T01:19:34Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
-2024-03-31T01:19:34Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
-2024-03-31T01:19:34Z Script verification uses 15 additional threads
-2024-03-31T01:19:34Z scheduler thread start
-2024-03-31T01:19:34Z Binding RPC on address ::1 port 8332
-2024-03-31T01:19:34Z Binding RPC on address 127.0.0.1 port 8332
-2024-03-31T01:19:34Z [http] creating work queue of depth 16
-2024-03-31T01:19:34Z Using random cookie authentication.
-2024-03-31T01:19:34Z Generated RPC authentication cookie /mnt/e/bitcoin/.bitcoin/.cookie
-2024-03-31T01:19:34Z [http] starting 4 worker threads
-2024-03-31T01:19:34Z Using wallet directory /mnt/e/bitcoin/.bitcoin/wallets
-2024-03-31T01:19:34Z init message: Verifying wallet(s)…
-2024-03-31T01:19:34Z Using /16 prefix for IP bucketing
-2024-03-31T01:19:34Z init message: Loading P2P addresses…
-2024-03-31T01:19:34Z Loaded 60068 addresses from peers.dat  444ms
-2024-03-31T01:19:34Z init message: Loading banlist…
-2024-03-31T01:19:34Z SetNetworkActive: true
-2024-03-31T01:19:35Z Cache configuration:
-2024-03-31T01:19:35Z * Using 2.0 MiB for block index database
-2024-03-31T01:19:35Z * Using 1024.0 MiB for transaction index database
-2024-03-31T01:19:35Z * Using 8.0 MiB for chain state database
-2024-03-31T01:19:35Z * Using 15350.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
-2024-03-31T01:19:35Z init message: Loading block index…
-2024-03-31T01:19:35Z Assuming ancestors of block 000000000000000000035c3f0d31e71a5ee24c5aaf3354689f65bd7b07dee632 have valid signatures.
-2024-03-31T01:19:35Z Setting nMinimumChainWork=000000000000000000000000000000000000000044a50fe819c39ad624021859
-2024-03-31T01:19:35Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/blocks/index
-2024-03-31T01:19:35Z Opened LevelDB successfully
-2024-03-31T01:19:35Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/blocks/index: 0000000000000000
-2024-03-31T01:19:46Z LoadBlockIndexDB: last block file = 4199
-2024-03-31T01:19:46Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=67, size=118304886, heights=836914...837023, time=2024-03-30...2024-03-30)
-2024-03-31T01:19:46Z Checking all blk files are present...
-2024-03-31T01:20:03Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
-2024-03-31T01:20:03Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/chainstate
-2024-03-31T01:20:03Z Opened LevelDB successfully
-2024-03-31T01:20:03Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/chainstate: 28807b46b147c7fc
-2024-03-31T01:20:03Z Loaded best chain: hashBestChain=0000000000000000000072c29e3e797dd62f4adc794effbea9ca0358b6de1d2f height=837004 date=2024-03-30T19:40:18Z progress=0.999924
-2024-03-31T01:20:03Z [snapshot] allocating all cache to the IBD chainstate
-2024-03-31T01:20:03Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/chainstate
-2024-03-31T01:20:03Z Opened LevelDB successfully
-2024-03-31T01:20:03Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/chainstate: 28807b46b147c7fc
-2024-03-31T01:20:03Z [Chainstate [ibd] @ height 837004 (0000000000000000000072c29e3e797dd62f4adc794effbea9ca0358b6de1d2f)] resized coinsdb cache to 8.0 MiB
-2024-03-31T01:20:03Z [Chainstate [ibd] @ height 837004 (0000000000000000000072c29e3e797dd62f4adc794effbea9ca0358b6de1d2f)] resized coinstip cache to 15350.0 MiB
-2024-03-31T01:20:03Z init message: Verifying blocks…
-2024-03-31T01:20:03Z Verifying last 6 blocks at level 3
-2024-03-31T01:20:03Z Verification progress: 0%
-2024-03-31T01:20:26Z Verification progress: 16%
-2024-03-31T01:20:41Z Verification progress: 33%
-2024-03-31T01:20:54Z Verification progress: 50%
-2024-03-31T01:21:04Z Verification progress: 66%
-2024-03-31T01:21:12Z Verification progress: 83%
-2024-03-31T01:21:25Z Verification progress: 99%
-2024-03-31T01:21:25Z Verification: No coin database inconsistencies in last 6 blocks (12952 transactions)
-2024-03-31T01:21:25Z  block index          110369ms
-2024-03-31T01:21:25Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/indexes/txindex
-2024-03-31T01:21:25Z Opened LevelDB successfully
-2024-03-31T01:21:25Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/indexes/txindex: 0000000000000000
-2024-03-31T01:21:25Z Setting NODE_NETWORK on non-prune mode
-2024-03-31T01:21:25Z txindex thread start
-2024-03-31T01:21:25Z txindex is enabled at height 837004
-2024-03-31T01:21:25Z txindex thread exit
-2024-03-31T01:21:25Z loadblk thread start
-2024-03-31T01:21:25Z block tree size = 837024
-2024-03-31T01:21:25Z nBestHeight = 837004
-2024-03-31T01:21:25Z torcontrol thread start
-2024-03-31T01:21:25Z Bound to 127.0.0.1:8334
-2024-03-31T01:21:25Z Bound to [::]:8333
-2024-03-31T01:21:25Z Bound to 0.0.0.0:8333
-2024-03-31T01:21:25Z 0 block-relay-only anchors will be tried for connections.
-2024-03-31T01:21:25Z init message: Starting network threads…
-2024-03-31T01:21:25Z net thread start
-2024-03-31T01:21:25Z dnsseed thread start
-2024-03-31T01:21:25Z Waiting 300 seconds before querying DNS seeds.
-2024-03-31T01:21:25Z opencon thread start
-2024-03-31T01:21:25Z msghand thread start
-2024-03-31T01:21:25Z addcon thread start
-2024-03-31T01:21:39Z UpdateTip: new best=000000000000000000021a417c7e5323de79951865c1c8ec85fa22e95f269bd6 height=837005 version=0x2bfc2000 log2_work=94.829314 tx=982471036 date='2024-03-30T19:44:51Z' progress=0.999924 cache=2.0MiB(13513txo)
-2024-03-31T01:21:53Z UpdateTip: new best=0000000000000000000265802ab318df29daebcc7caa9432681d586f6c54e7c2 height=837006 version=0x30000000 log2_work=94.829329 tx=982472396 date='2024-03-30T19:48:32Z' progress=0.999925 cache=3.7MiB(25374txo)
-2024-03-31T01:22:06Z UpdateTip: new best=00000000000000000000db13a7a13c9209a0ca3c6100a00f460e344a6d7e8be9 height=837007 version=0x20010000 log2_work=94.829343 tx=982475173 date='2024-03-30T20:01:51Z' progress=0.999928 cache=5.4MiB(38766txo)
-2024-03-31T01:22:18Z UpdateTip: new best=00000000000000000001b0922ce9774bb9b94abe3e203f0032c250512536dd3c height=837008 version=0x3fff0000 log2_work=94.829358 tx=982477120 date='2024-03-30T20:03:32Z' progress=0.999929 cache=6.7MiB(46514txo)
-2024-03-31T01:22:40Z UpdateTip: new best=0000000000000000000082a346e70a91c2718f184de58304183eeaab6945169d height=837009 version=0x2001e000 log2_work=94.829373 tx=982477543 date='2024-03-30T20:05:01Z' progress=0.999929 cache=8.1MiB(57947txo)
-2024-03-31T01:22:51Z UpdateTip: new best=00000000000000000000c8f40482bfcebb02088cac9366365190d133e9a83ade height=837010 version=0x20400000 log2_work=94.829387 tx=982480859 date='2024-03-30T20:36:37Z' progress=0.999936 cache=10.1MiB(73652txo)
-2024-03-31T01:22:51Z init message: Done loading
-2024-03-31T01:23:01Z UpdateTip: new best=00000000000000000002cb19aa49582630308792f99edd3d24761c47b28df2bf height=837011 version=0x20000000 log2_work=94.829402 tx=982484289 date='2024-03-30T21:15:50Z' progress=0.999945 cache=12.9MiB(90139txo)
-2024-03-31T01:23:11Z UpdateTip: new best=000000000000000000034e977d34e6326138c5a5a66273c06f9b4708d7a6fe97 height=837012 version=0x20000000 log2_work=94.829417 tx=982487002 date='2024-03-30T21:20:34Z' progress=0.999946 cache=14.3MiB(101325txo)
-2024-03-31T01:23:22Z UpdateTip: new best=00000000000000000001d686bbb7ad4918b0d9e1d41578675d2fbacd41c0cbb4 height=837013 version=0x20000000 log2_work=94.829431 tx=982489660 date='2024-03-30T21:32:41Z' progress=0.999948 cache=16.0MiB(113981txo)
-2024-03-31T01:23:31Z UpdateTip: new best=000000000000000000010e79a5fc7db29880be204216ff0ad1332eb4f1f07c5d height=837014 version=0x24afe000 log2_work=94.829446 tx=982492008 date='2024-03-30T21:36:57Z' progress=0.999949 cache=17.3MiB(124084txo)
-2024-03-31T01:23:31Z UpdateTip: new best=000000000000000000034717fddc741f514cd4545c47c8d43fba67199be34fea height=837015 version=0x215a8000 log2_work=94.829460 tx=982492009 date='2024-03-30T21:37:18Z' progress=0.999949 cache=17.3MiB(124085txo)
-2024-03-31T01:23:39Z UpdateTip: new best=00000000000000000000150440489dc2e7fd265cf03330ec397f1d05750020ce height=837016 version=0x30000000 log2_work=94.829475 tx=982494092 date='2024-03-30T21:46:42Z' progress=0.999951 cache=18.4MiB(132527txo)
-2024-03-31T01:23:49Z UpdateTip: new best=00000000000000000002771ba52c4930970ac61c3a2382746320340999969995 height=837017 version=0x2261a000 log2_work=94.829490 tx=982497319 date='2024-03-30T22:13:16Z' progress=0.999957 cache=20.3MiB(147404txo)
-2024-03-31T01:23:58Z UpdateTip: new best=00000000000000000002752d46d7e31a53dcc71c3c60e576c11f60a982c8a32a height=837018 version=0x26f66000 log2_work=94.829504 tx=982499072 date='2024-03-30T22:16:22Z' progress=0.999958 cache=21.4MiB(155690txo)
-2024-03-31T01:24:12Z UpdateTip: new best=00000000000000000002ba7a63bbc94fc2ec4512928de8339c70e24d82e4479e height=837019 version=0x20000000 log2_work=94.829519 tx=982500634 date='2024-03-30T22:22:46Z' progress=0.999959 cache=22.5MiB(164625txo)
-2024-03-31T01:24:19Z UpdateTip: new best=00000000000000000002b2961bab292a724b1b486ec252ee0ff23ffd1d18d5f2 height=837020 version=0x247c2000 log2_work=94.829534 tx=982502405 date='2024-03-30T22:27:40Z' progress=0.999960 cache=23.7MiB(172816txo)
-2024-03-31T01:24:26Z UpdateTip: new best=000000000000000000031164b04dc2d0f54fb9ad7d3217f8b0902373e2071573 height=837021 version=0x26000004 log2_work=94.829548 tx=982505167 date='2024-03-30T22:46:45Z' progress=0.999965 cache=26.5MiB(184007txo)
-2024-03-31T01:24:33Z UpdateTip: new best=00000000000000000002354ff62b014cdff9f3f4ac24464b688120855e5aff2e height=837022 version=0x20200000 log2_work=94.829563 tx=982507025 date='2024-03-30T22:54:41Z' progress=0.999966 cache=27.4MiB(190404txo)
-2024-03-31T01:24:42Z UpdateTip: new best=00000000000000000000426ee47999564639b65119e3d35ab1a19045f0c6b69f height=837023 version=0x20000000 log2_work=94.829578 tx=982509767 date='2024-03-30T22:58:28Z' progress=0.999967 cache=28.0MiB(196054txo)
-2024-03-31T01:24:42Z Leaving InitialBlockDownload (latching to false)
-2024-03-31T01:24:45Z New outbound peer connected: version: 70016, blocks=837038, peer=4 (outbound-full-relay)
-2024-03-31T01:24:45Z Saw new header hash=0000000000000000000054d934ea7f1649c61e4f565fee3cae176e675b9cd709 height=837024
-2024-03-31T01:24:45Z Saw new header hash=00000000000000000000abd8d1b84939f0f696607483f54d4d7f46ef44010498 height=837025
-2024-03-31T01:24:45Z Saw new header hash=0000000000000000000082b1c07523d97f9313f030ecd350605a4ed01327bbd0 height=837026
-2024-03-31T01:24:45Z Saw new header hash=0000000000000000000045e5be9d6cb593434598962823016720b069e22cd465 height=837027
-2024-03-31T01:24:45Z Saw new header hash=00000000000000000001326c50ff20c42698afa78346399c49d6081818ce0973 height=837028
-2024-03-31T01:24:45Z Saw new header hash=00000000000000000001a27fc0e2a8fe14ed7e0730c8264a4546e904323b41aa height=837029
-2024-03-31T01:24:45Z Saw new header hash=00000000000000000002610a20d72508804522f9d120f441f711deb8323e59cd height=837030
-2024-03-31T01:24:45Z Saw new header hash=0000000000000000000100d7b7219cd7d8b441fe53874f6074dd18848c53fa2e height=837031
-2024-03-31T01:24:45Z Saw new header hash=000000000000000000019f23e97efb7d1b9c9883f6b2f9fe4c01809773a9da02 height=837032
-2024-03-31T01:24:45Z Saw new header hash=0000000000000000000073e2ececcc8642ef5511b270176b95493c841908b891 height=837033
-2024-03-31T01:24:45Z Saw new header hash=00000000000000000002ed4c124690c6184bd47d82f4f2187c2767f963227d13 height=837034
-2024-03-31T01:24:45Z Saw new header hash=000000000000000000032ce80b76739563c40d5b46fe5823bcadcfea49d77ea3 height=837035
-2024-03-31T01:24:45Z Saw new header hash=00000000000000000000b0d3842231e09a5799efa270e4c8ed8e62b094d45b6e height=837036
-2024-03-31T01:24:45Z Saw new header hash=000000000000000000023c47e4f9b706d38865faf57420bf21af4308541f88c6 height=837037
-2024-03-31T01:24:45Z Saw new header hash=0000000000000000000336ff367bc8a232f575c1e5182513af5b9e984a6b3138 height=837038
-2024-03-31T01:24:46Z New outbound peer connected: version: 70016, blocks=0, peer=5 (outbound-full-relay)
-2024-03-31T01:24:46Z New outbound peer connected: version: 70016, blocks=837038, peer=6 (outbound-full-relay)
-2024-03-31T01:24:48Z New outbound peer connected: version: 70015, blocks=837038, peer=8 (outbound-full-relay)
-2024-03-31T01:24:49Z New outbound peer connected: version: 70016, blocks=837038, peer=10 (outbound-full-relay)
-2024-03-31T01:24:50Z New outbound peer connected: version: 70016, blocks=837038, peer=11 (outbound-full-relay)
-2024-03-31T01:24:50Z New outbound peer connected: version: 70016, blocks=837038, peer=12 (outbound-full-relay)
-2024-03-31T01:24:54Z P2P peers available. Skipped DNS seeding.
-2024-03-31T01:24:54Z dnsseed thread exit
-2024-03-31T01:25:02Z New outbound peer connected: version: 70016, blocks=837038, peer=14 (outbound-full-relay)
-2024-03-31T01:25:16Z New outbound peer connected: version: 70016, blocks=837038, peer=18 (outbound-full-relay)
-2024-03-31T01:25:26Z New outbound peer connected: version: 70016, blocks=837038, peer=20 (outbound-full-relay)
-2024-03-31T01:25:28Z New outbound peer connected: version: 70016, blocks=837038, peer=21 (outbound-full-relay)
-2024-03-31T01:25:46Z New outbound peer connected: version: 70016, blocks=837038, peer=22 (block-relay-only)
-2024-03-31T01:25:49Z New outbound peer connected: version: 70016, blocks=837038, peer=23 (block-relay-only)
-2024-03-31T01:26:40Z New outbound peer connected: version: 70016, blocks=837038, peer=24 (outbound-full-relay)
-2024-03-31T01:32:45Z Saw new header hash=000000000000000000027267a25980561da91b65c7602ba21ee26493e3413d75 height=837039
-2024-03-31T01:33:47Z New outbound peer connected: version: 70016, blocks=837038, peer=25 (block-relay-only)
-2024-03-31T01:34:46Z Timeout downloading block 0000000000000000000054d934ea7f1649c61e4f565fee3cae176e675b9cd709 from peer=4, disconnecting
-2024-03-31T01:34:57Z UpdateTip: new best=0000000000000000000054d934ea7f1649c61e4f565fee3cae176e675b9cd709 height=837024 version=0x20006000 log2_work=94.829592 tx=982511557 date='2024-03-30T23:02:09Z' progress=0.999966 cache=70.3MiB(490924txo)
-2024-03-31T01:34:57Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:06Z UpdateTip: new best=00000000000000000000abd8d1b84939f0f696607483f54d4d7f46ef44010498 height=837025 version=0x20002000 log2_work=94.829607 tx=982514707 date='2024-03-30T23:36:52Z' progress=0.999973 cache=72.1MiB(504945txo)
-2024-03-31T01:35:06Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:06Z New outbound peer connected: version: 70016, blocks=837039, peer=26 (outbound-full-relay)
-2024-03-31T01:35:13Z UpdateTip: new best=0000000000000000000082b1c07523d97f9313f030ecd350605a4ed01327bbd0 height=837026 version=0x30012000 log2_work=94.829621 tx=982517932 date='2024-03-30T23:49:07Z' progress=0.999976 cache=73.6MiB(516565txo)
-2024-03-31T01:35:13Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:20Z UpdateTip: new best=0000000000000000000045e5be9d6cb593434598962823016720b069e22cd465 height=837027 version=0x20006000 log2_work=94.829636 tx=982520448 date='2024-03-30T23:50:28Z' progress=0.999976 cache=74.5MiB(523049txo)
-2024-03-31T01:35:20Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:28Z UpdateTip: new best=00000000000000000001326c50ff20c42698afa78346399c49d6081818ce0973 height=837028 version=0x23f1c000 log2_work=94.829651 tx=982523523 date='2024-03-31T00:10:27Z' progress=0.999981 cache=75.9MiB(533849txo)
-2024-03-31T01:35:28Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:35Z UpdateTip: new best=00000000000000000001a27fc0e2a8fe14ed7e0730c8264a4546e904323b41aa height=837029 version=0x3fffe000 log2_work=94.829665 tx=982526363 date='2024-03-31T00:18:56Z' progress=0.999983 cache=76.9MiB(541582txo)
-2024-03-31T01:35:35Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:40Z UpdateTip: new best=00000000000000000002610a20d72508804522f9d120f441f711deb8323e59cd height=837030 version=0x20000000 log2_work=94.829680 tx=982528374 date='2024-03-31T00:22:50Z' progress=0.999984 cache=78.0MiB(548413txo)
-2024-03-31T01:35:40Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:44Z UpdateTip: new best=0000000000000000000100d7b7219cd7d8b441fe53874f6074dd18848c53fa2e height=837031 version=0x2001a000 log2_work=94.829695 tx=982531407 date='2024-03-31T00:26:19Z' progress=0.999984 cache=78.4MiB(552156txo)
-2024-03-31T01:35:44Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:51Z UpdateTip: new best=000000000000000000019f23e97efb7d1b9c9883f6b2f9fe4c01809773a9da02 height=837032 version=0x28000000 log2_work=94.829709 tx=982534557 date='2024-03-31T00:44:22Z' progress=0.999988 cache=79.8MiB(562799txo)
-2024-03-31T01:35:51Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:35:57Z UpdateTip: new best=0000000000000000000073e2ececcc8642ef5511b270176b95493c841908b891 height=837033 version=0x2455c000 log2_work=94.829724 tx=982536991 date='2024-03-31T00:56:58Z' progress=0.999991 cache=80.6MiB(569177txo)
-2024-03-31T01:35:57Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:36:04Z UpdateTip: new best=00000000000000000002ed4c124690c6184bd47d82f4f2187c2767f963227d13 height=837034 version=0x342e8000 log2_work=94.829738 tx=982538640 date='2024-03-31T00:58:33Z' progress=0.999992 cache=81.5MiB(575034txo)
-2024-03-31T01:36:04Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:36:08Z UpdateTip: new best=000000000000000000032ce80b76739563c40d5b46fe5823bcadcfea49d77ea3 height=837035 version=0x2a000000 log2_work=94.829753 tx=982542138 date='2024-03-31T01:04:21Z' progress=0.999993 cache=82.4MiB(581193txo)
-2024-03-31T01:36:08Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:36:09Z UpdateTip: new best=00000000000000000000b0d3842231e09a5799efa270e4c8ed8e62b094d45b6e height=837036 version=0x35254000 log2_work=94.829768 tx=982545927 date='2024-03-31T01:05:25Z' progress=0.999993 cache=83.2MiB(585763txo)
-2024-03-31T01:36:09Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:36:16Z UpdateTip: new best=000000000000000000023c47e4f9b706d38865faf57420bf21af4308541f88c6 height=837037 version=0x2000e000 log2_work=94.829782 tx=982548655 date='2024-03-31T01:15:29Z' progress=0.999995 cache=84.4MiB(594173txo)
-2024-03-31T01:36:16Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:36:19Z UpdateTip: new best=0000000000000000000336ff367bc8a232f575c1e5182513af5b9e984a6b3138 height=837038 version=0x27ffe000 log2_work=94.829797 tx=982552417 date='2024-03-31T01:17:08Z' progress=0.999996 cache=85.2MiB(598973txo)
-2024-03-31T01:36:22Z UpdateTip: new best=000000000000000000027267a25980561da91b65c7602ba21ee26493e3413d75 height=837039 version=0x28000000 log2_work=94.829812 tx=982554990 date='2024-03-31T01:32:30Z' progress=0.999999 cache=86.3MiB(607501txo)
-2024-03-31T01:36:22Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:36:45Z New outbound peer connected: version: 70015, blocks=837039, peer=27 (block-relay-only)
-2024-03-31T01:41:26Z New outbound peer connected: version: 70016, blocks=837039, peer=28 (block-relay-only)
-2024-03-31T01:41:53Z Saw new header hash=00000000000000000001da3bac7f017ee65e02916e5f84cb61c11c856b353cb1 height=837040
-2024-03-31T01:41:55Z UpdateTip: new best=00000000000000000001da3bac7f017ee65e02916e5f84cb61c11c856b353cb1 height=837040 version=0x2dbde000 log2_work=94.829826 tx=982557110 date='2024-03-31T01:41:45Z' progress=1.000000 cache=112.0MiB(765762txo)
-2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:41:55Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:44:24Z Imported mempool transactions from disk: 17747 succeeded, 2782 failed, 0 expired, 1 already there, 0 waiting for initial broadcast
-2024-03-31T01:44:24Z loadblk thread exit
-2024-03-31T01:45:17Z Saw new header hash=000000000000000000009a2598cae5a09d9fb71bf200c14125a771ec75114700 height=837041
-2024-03-31T01:45:23Z UpdateTip: new best=000000000000000000009a2598cae5a09d9fb71bf200c14125a771ec75114700 height=837041 version=0x20600000 log2_work=94.829841 tx=982558513 date='2024-03-31T01:44:52Z' progress=1.000000 cache=122.2MiB(843731txo)
-2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:45:23Z BlockUntilSyncedToCurrentChain: txindex is catching up on block notifications
-2024-03-31T01:46:48Z Disconnecting outbound peer 5 for old chain, best known block = <none>
-2024-03-31T01:46:49Z New outbound peer connected: version: 70016, blocks=837041, peer=29 (outbound-full-relay)
-2024-03-31T01:46:50Z New outbound peer connected: version: 70016, blocks=837041, peer=30 (outbound-full-relay)
+2024-04-06T21:49:05Z Bitcoin Core version v25.0.0 (release build)
+2024-04-06T21:49:05Z Using the 'x86_shani(1way,2way)' SHA256 implementation
+2024-04-06T21:49:05Z Using RdSeed as an additional entropy source
+2024-04-06T21:49:05Z Using RdRand as an additional entropy source
+2024-04-06T21:49:05Z Default data directory /home/anonchickenlegs/.bitcoin
+2024-04-06T21:49:05Z Using data directory /mnt/e/bitcoin/.bitcoin
+2024-04-06T21:49:05Z Config file: /mnt/e/bitcoin/.bitcoin/bitcoin.conf
+2024-04-06T21:49:05Z Config file arg: dbcache="32768"
+2024-04-06T21:49:05Z Config file arg: maxconnections="150"
+2024-04-06T21:49:05Z Config file arg: maxmempool="512"
+2024-04-06T21:49:05Z Config file arg: txindex="1"
+2024-04-06T21:49:05Z Command-line arg: conf="/mnt/e/bitcoin/.bitcoin/bitcoin.conf"
+2024-04-06T21:49:05Z Command-line arg: datadir="/mnt/e/bitcoin/.bitcoin"
+2024-04-06T21:49:05Z Using at most 150 automatic connections (1024 file descriptors available)
+2024-04-06T21:49:05Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2024-04-06T21:49:05Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2024-04-06T21:49:05Z Script verification uses 15 additional threads
+2024-04-06T21:49:05Z scheduler thread start
+2024-04-06T21:49:05Z Binding RPC on address ::1 port 8332
+2024-04-06T21:49:05Z Binding RPC on address 127.0.0.1 port 8332
+2024-04-06T21:49:05Z [http] creating work queue of depth 16
+2024-04-06T21:49:05Z Using random cookie authentication.
+2024-04-06T21:49:05Z Generated RPC authentication cookie /mnt/e/bitcoin/.bitcoin/.cookie
+2024-04-06T21:49:05Z [http] starting 4 worker threads
+2024-04-06T21:49:05Z Using wallet directory /mnt/e/bitcoin/.bitcoin/wallets
+2024-04-06T21:49:05Z init message: Verifying wallet(s)…
+2024-04-06T21:49:05Z Using /16 prefix for IP bucketing
+2024-04-06T21:49:05Z init message: Loading P2P addresses…
+2024-04-06T21:49:05Z Loaded 60559 addresses from peers.dat  480ms
+2024-04-06T21:49:05Z init message: Loading banlist…
+2024-04-06T21:49:05Z SetNetworkActive: true
+2024-04-06T21:49:05Z Cache configuration:
+2024-04-06T21:49:05Z * Using 2.0 MiB for block index database
+2024-04-06T21:49:05Z * Using 1024.0 MiB for transaction index database
+2024-04-06T21:49:05Z * Using 8.0 MiB for chain state database
+2024-04-06T21:49:05Z * Using 15350.0 MiB for in-memory UTXO set (plus up to 488.3 MiB of unused mempool space)
+2024-04-06T21:49:05Z init message: Loading block index…
+2024-04-06T21:49:05Z Assuming ancestors of block 000000000000000000035c3f0d31e71a5ee24c5aaf3354689f65bd7b07dee632 have valid signatures.
+2024-04-06T21:49:05Z Setting nMinimumChainWork=000000000000000000000000000000000000000044a50fe819c39ad624021859
+2024-04-06T21:49:05Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/blocks/index
+2024-04-06T21:49:05Z Opened LevelDB successfully
+2024-04-06T21:49:05Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/blocks/index: 0000000000000000
+2024-04-06T21:49:09Z LoadBlockIndexDB: last block file = 4206
+2024-04-06T21:49:09Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=18, size=29749391, heights=837385...837534, time=2024-04-02...2024-04-03)
+2024-04-06T21:49:09Z Checking all blk files are present...
+2024-04-06T21:49:31Z Initializing chainstate Chainstate [ibd] @ height -1 (null)
+2024-04-06T21:49:31Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/chainstate
+2024-04-06T21:49:32Z Opened LevelDB successfully
+2024-04-06T21:49:32Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/chainstate: 28807b46b147c7fc
+2024-04-06T21:49:32Z Loaded best chain: hashBestChain=00000000000000000002c2627aa11be71041c83d635e4a11bf5bc115c5e326db height=837389 date=2024-04-02T11:21:27Z progress=0.998571
+2024-04-06T21:49:32Z [snapshot] allocating all cache to the IBD chainstate
+2024-04-06T21:49:32Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/chainstate
+2024-04-06T21:49:32Z Opened LevelDB successfully
+2024-04-06T21:49:32Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/chainstate: 28807b46b147c7fc
+2024-04-06T21:49:32Z [Chainstate [ibd] @ height 837389 (00000000000000000002c2627aa11be71041c83d635e4a11bf5bc115c5e326db)] resized coinsdb cache to 8.0 MiB
+2024-04-06T21:49:32Z [Chainstate [ibd] @ height 837389 (00000000000000000002c2627aa11be71041c83d635e4a11bf5bc115c5e326db)] resized coinstip cache to 15350.0 MiB
+2024-04-06T21:49:32Z init message: Verifying blocks…
+2024-04-06T21:49:32Z Verifying last 6 blocks at level 3
+2024-04-06T21:49:32Z Verification progress: 0%
+2024-04-06T21:49:37Z Verification progress: 16%
+2024-04-06T21:49:41Z Verification progress: 33%
+2024-04-06T21:49:47Z Verification progress: 50%
+2024-04-06T21:49:51Z Verification progress: 66%
+2024-04-06T21:49:54Z Verification progress: 83%
+2024-04-06T21:49:57Z Verification progress: 99%
+2024-04-06T21:49:57Z Verification: No coin database inconsistencies in last 6 blocks (14123 transactions)
+2024-04-06T21:49:57Z  block index           52105ms
+2024-04-06T21:49:57Z Opening LevelDB in /mnt/e/bitcoin/.bitcoin/indexes/txindex
+2024-04-06T21:49:58Z Opened LevelDB successfully
+2024-04-06T21:49:58Z Using obfuscation key for /mnt/e/bitcoin/.bitcoin/indexes/txindex: 0000000000000000
+2024-04-06T21:49:58Z Setting NODE_NETWORK on non-prune mode
+2024-04-06T21:49:58Z txindex thread start
+2024-04-06T21:49:58Z txindex is enabled at height 837389
+2024-04-06T21:49:58Z txindex thread exit
+2024-04-06T21:49:58Z block tree size = 838035
+2024-04-06T21:49:58Z nBestHeight = 837389
+2024-04-06T21:49:58Z loadblk thread start
+2024-04-06T21:49:58Z torcontrol thread start
+2024-04-06T21:49:58Z Bound to 127.0.0.1:8334
+2024-04-06T21:49:58Z Bound to [::]:8333
+2024-04-06T21:49:58Z Bound to 0.0.0.0:8333
+2024-04-06T21:49:58Z Loaded 2 addresses from "anchors.dat"
+2024-04-06T21:49:58Z 2 block-relay-only anchors will be tried for connections.
+2024-04-06T21:49:58Z init message: Starting network threads…
+2024-04-06T21:49:58Z net thread start
+2024-04-06T21:49:58Z msghand thread start
+2024-04-06T21:49:58Z opencon thread start
+2024-04-06T21:49:58Z addcon thread start
+2024-04-06T21:49:58Z dnsseed thread start
+2024-04-06T21:49:58Z Waiting 300 seconds before querying DNS seeds.
+2024-04-06T21:50:10Z UpdateTip: new best=00000000000000000000caba9e52cda76f8dd5a4248dc5239185030e25856884 height=837390 version=0x2001e000 log2_work=94.834938 tx=983347726 date='2024-04-02T11:37:40Z' progress=0.998574 cache=2.2MiB(15294txo)
+2024-04-06T21:50:19Z UpdateTip: new best=000000000000000000005811624384defe51b2d75fdee5878eb5a1573e13960e height=837391 version=0x2953c000 log2_work=94.834952 tx=983349653 date='2024-04-02T11:44:41Z' progress=0.998576 cache=3.5MiB(24233txo)
+2024-04-06T21:50:29Z UpdateTip: new best=00000000000000000003331c9b0e81db21392b36b32df8133a105de3e4515e9f height=837392 version=0x2ad98000 log2_work=94.834967 tx=983353338 date='2024-04-02T12:07:25Z' progress=0.998581 cache=5.4MiB(38850txo)
+2024-04-06T21:50:29Z init message: Done loading
+2024-04-06T21:50:29Z New outbound peer connected: version: 70016, blocks=838036, peer=0 (block-relay-only)
+2024-04-06T21:50:29Z Synchronizing blockheaders, height: 838036 (~100.00%)
+2024-04-06T21:50:30Z New outbound peer connected: version: 70016, blocks=838036, peer=1 (block-relay-only)
+2024-04-06T21:50:30Z New outbound peer connected: version: 70016, blocks=838036, peer=2 (outbound-full-relay)
+2024-04-06T21:50:42Z UpdateTip: new best=0000000000000000000115286f4d46d257bc4ac5c566c09eb15cd1d238039415 height=837393 version=0x32084000 log2_work=94.834982 tx=983355625 date='2024-04-02T12:10:02Z' progress=0.998581 cache=7.2MiB(50194txo)
+2024-04-06T21:50:55Z UpdateTip: new best=00000000000000000002833f9c549f8e23b03fdad654dc8e6cb83c899c6693c0 height=837394 version=0x2e000000 log2_work=94.834996 tx=983357010 date='2024-04-02T12:12:22Z' progress=0.998582 cache=8.7MiB(62035txo)
+2024-04-06T21:51:11Z UpdateTip: new best=0000000000000000000170051795caf7668c62c3fc0b2efdc3c1694ca79b317f height=837395 version=0x26000000 log2_work=94.835011 tx=983358381 date='2024-04-02T12:16:59Z' progress=0.998583 cache=9.9MiB(71885txo)
+2024-04-06T21:51:30Z UpdateTip: new best=000000000000000000003f561c31a41cd7da72811f8ed1c2886c9d5f301e0cfc height=837396 version=0x22fb0000 log2_work=94.835025 tx=983359708 date='2024-04-02T12:21:52Z' progress=0.998584 cache=11.5MiB(84187txo)
+2024-04-06T21:51:53Z UpdateTip: new best=00000000000000000000de30624e7de3f231b12fdfb994a19bd7229746b13a51 height=837397 version=0x20000000 log2_work=94.835040 tx=983360915 date='2024-04-02T12:26:22Z' progress=0.998585 cache=13.9MiB(98349txo)
+2024-04-06T21:52:13Z UpdateTip: new best=00000000000000000000535293a31bb39ec32dfa98998c27c6a34902205c7da8 height=837398 version=0x2001c000 log2_work=94.835055 tx=983364226 date='2024-04-02T13:03:50Z' progress=0.998593 cache=16.2MiB(116164txo)
+2024-04-06T21:52:36Z UpdateTip: new best=00000000000000000002229eb0dd347969a509793994708556bcaac46045c398 height=837399 version=0x20000000 log2_work=94.835069 tx=983367565 date='2024-04-02T13:24:20Z' progress=0.998597 cache=18.6MiB(134616txo)
+2024-04-06T21:52:53Z UpdateTip: new best=000000000000000000026ef8a0ea46a5638f48f050921b4470415955935bea8e height=837400 version=0x3327c000 log2_work=94.835084 tx=983370340 date='2024-04-02T13:25:39Z' progress=0.998598 cache=20.1MiB(146534txo)
+2024-04-06T21:53:08Z UpdateTip: new best=0000000000000000000240e3a3233105d3b833b056478971514df416ab65dc94 height=837401 version=0x38000000 log2_work=94.835098 tx=983373331 date='2024-04-02T13:35:41Z' progress=0.998600 cache=22.0MiB(160524txo)
+2024-04-06T21:53:20Z UpdateTip: new best=00000000000000000000d8ead439cbdc0c879669b67b8a2e79b0570da088c379 height=837402 version=0x20004000 log2_work=94.835113 tx=983375970 date='2024-04-02T13:35:45Z' progress=0.998600 cache=25.0MiB(173142txo)
+2024-04-06T21:53:29Z UpdateTip: new best=000000000000000000008ed2a07c8e9719ed8c3382b98aeac3b737fe598f0e1b height=837403 version=0x3219e000 log2_work=94.835127 tx=983378710 date='2024-04-02T13:45:56Z' progress=0.998602 cache=26.7MiB(185627txo)
+2024-04-06T21:53:40Z UpdateTip: new best=000000000000000000033ff03b8baac25130a262e08ce9c376d29f97d2f9f057 height=837404 version=0x20000000 log2_work=94.835142 tx=983381203 date='2024-04-02T13:54:25Z' progress=0.998604 cache=28.5MiB(199365txo)
+2024-04-06T21:53:51Z UpdateTip: new best=000000000000000000003af47db2d12d1d3a9ed7e4c243568a42ec03bca9c86c height=837405 version=0x3c000000 log2_work=94.835157 tx=983384290 date='2024-04-02T14:15:32Z' progress=0.998609 cache=30.2MiB(212444txo)
+2024-04-06T21:54:09Z UpdateTip: new best=000000000000000000012f43f50da3001c5889f0168cbf3eff7390261fd7e3e9 height=837406 version=0x20000000 log2_work=94.835171 tx=983387574 date='2024-04-02T14:40:18Z' progress=0.998614 cache=32.2MiB(228342txo)
+2024-04-06T21:54:23Z UpdateTip: new best=00000000000000000001b6fd90074c943b79feb3985477a333cded0cc28b3a2e height=837407 version=0x217d0000 log2_work=94.835186 tx=983390175 date='2024-04-02T14:43:43Z' progress=0.998615 cache=33.5MiB(238098txo)
+2024-04-06T21:54:34Z UpdateTip: new best=000000000000000000022a84bf17d41705609a53894a27ce23c83486b36b9722 height=837408 version=0x20a00000 log2_work=94.835200 tx=983393355 date='2024-04-02T15:01:25Z' progress=0.998619 cache=35.1MiB(250750txo)
+2024-04-06T21:54:43Z UpdateTip: new best=000000000000000000026ad4f6eb0f5ff09c0c2146be3beb2e13c7ad5154fd10 height=837409 version=0x2292c000 log2_work=94.835215 tx=983396365 date='2024-04-02T15:08:59Z' progress=0.998620 cache=36.5MiB(260883txo)
+2024-04-06T21:54:53Z UpdateTip: new best=000000000000000000028c4586ae2c602495386486d085ce23fdfd57db4fceeb height=837410 version=0x2002a000 log2_work=94.835229 tx=983399430 date='2024-04-02T15:21:49Z' progress=0.998623 cache=38.0MiB(272758txo)
+2024-04-06T21:54:58Z Loading addresses from DNS seed seed.bitcoinstats.com.
+2024-04-06T21:54:59Z Loading addresses from DNS seed seed.bitcoin.sprovoost.nl.
+2024-04-06T21:54:59Z Loading addresses from DNS seed seed.bitcoin.sipa.be.
+2024-04-06T21:55:00Z Waiting 300 seconds before querying DNS seeds.
+2024-04-06T21:55:01Z UpdateTip: new best=000000000000000000017f2f4f5c79a17fd9d1f00c9813ac64de34c6aa665bcc height=837411 version=0x26000000 log2_work=94.835244 tx=983402354 date='2024-04-02T16:02:49Z' progress=0.998632 cache=39.9MiB(286978txo)
+2024-04-06T21:55:23Z UpdateTip: new best=000000000000000000010ce075b8a91d131d18c65115717e11930b01799ce86d height=837412 version=0x2000e000 log2_work=94.835259 tx=983405655 date='2024-04-02T16:13:54Z' progress=0.998635 cache=41.8MiB(302715txo)
+2024-04-06T21:55:33Z UpdateTip: new best=00000000000000000000711debfa8e1109637528d9b4870ba1341eee6c9e28aa height=837413 version=0x20004000 log2_work=94.835273 tx=983407991 date='2024-04-02T16:14:20Z' progress=0.998635 cache=43.2MiB(312983txo)
+2024-04-06T21:55:44Z UpdateTip: new best=00000000000000000001bae186cde81f4f60effcb7f1e8dd54a0c833a8f6d7ff height=837414 version=0x2a000000 log2_work=94.835288 tx=983410841 date='2024-04-02T16:25:38Z' progress=0.998637 cache=44.6MiB(323772txo)
+2024-04-06T21:55:54Z UpdateTip: new best=00000000000000000002d26c32d6ab006631e3cf7bb82d2327b33d8bb61614e2 height=837415 version=0x20014000 log2_work=94.835302 tx=983414027 date='2024-04-02T16:46:15Z' progress=0.998642 cache=46.2MiB(336435txo)
+2024-04-06T21:56:03Z UpdateTip: new best=000000000000000000006d62d6a054e41168e91ebae83706dc77462706176c8b height=837416 version=0x2855e000 log2_work=94.835317 tx=983417194 date='2024-04-02T16:59:19Z' progress=0.998645 cache=47.4MiB(346104txo)
+2024-04-06T21:56:13Z UpdateTip: new best=000000000000000000011f835d35b740c1b8952ff11555485b5f95c15c6e12a0 height=837417 version=0x2ffae000 log2_work=94.835331 tx=983420197 date='2024-04-02T17:09:08Z' progress=0.998647 cache=51.6MiB(357263txo)
+2024-04-06T21:56:33Z UpdateTip: new best=0000000000000000000130968050637c1fa6c53a85156cc998ce09f593816f45 height=837418 version=0x3fffe000 log2_work=94.835346 tx=983423865 date='2024-04-02T17:22:47Z' progress=0.998650 cache=53.6MiB(372663txo)
+2024-04-06T21:56:42Z UpdateTip: new best=000000000000000000035f7885898ad44d0f3fc736a89ad21a268178e0de5a3c height=837419 version=0x24000000 log2_work=94.835361 tx=983426995 date='2024-04-02T17:34:24Z' progress=0.998653 cache=54.8MiB(382403txo)
+2024-04-06T21:56:53Z UpdateTip: new best=000000000000000000029966e75d358d4e86e315b86598cf5f36f6ecb2bfb6fd height=837420 version=0x20cb8000 log2_work=94.835375 tx=983429604 date='2024-04-02T17:39:11Z' progress=0.998654 cache=56.2MiB(392538txo)
+2024-04-06T21:57:05Z UpdateTip: new best=0000000000000000000117a8a2a052ea24e460c27b2ad54e8897a8abbc6537a1 height=837421 version=0x2e000000 log2_work=94.835390 tx=983432379 date='2024-04-02T17:46:37Z' progress=0.998655 cache=57.5MiB(402990txo)
+2024-04-06T21:57:16Z UpdateTip: new best=000000000000000000004964848137a4eb7fb4d82c87fc8672bb000add896df1 height=837422 version=0x257a2000 log2_work=94.835404 tx=983435295 date='2024-04-02T17:51:11Z' progress=0.998656 cache=58.8MiB(413173txo)
+2024-04-06T21:57:26Z UpdateTip: new best=00000000000000000000211766a26d2ffe6e9b2339797482323925ed25af78d0 height=837423 version=0x2fa46000 log2_work=94.835419 tx=983437824 date='2024-04-02T17:57:03Z' progress=0.998657 cache=60.3MiB(424246txo)
+2024-04-06T21:57:40Z UpdateTip: new best=0000000000000000000242e75afb3bff2a16d5fd816d8157b0d417d7cb808362 height=837424 version=0x20600000 log2_work=94.835433 tx=983440358 date='2024-04-02T18:04:15Z' progress=0.998659 cache=61.5MiB(433249txo)
+2024-04-06T21:57:47Z UpdateTip: new best=00000000000000000002c044b30152c87f6ac1df93bd57d826e560f97442312e height=837425 version=0x33398000 log2_work=94.835448 tx=983443040 date='2024-04-02T18:12:07Z' progress=0.998661 cache=62.4MiB(440413txo)
+2024-04-06T21:57:57Z UpdateTip: new best=0000000000000000000040d37073a9a95a958ec98efe8f8305806f646b49e005 height=837426 version=0x27f38000 log2_work=94.835463 tx=983446082 date='2024-04-02T18:26:46Z' progress=0.998664 cache=63.7MiB(450243txo)
+2024-04-06T21:58:12Z UpdateTip: new best=000000000000000000034f20759eefece5fb0bec458b0a6b40207a0e2fad6c60 height=837427 version=0x20000000 log2_work=94.835477 tx=983448118 date='2024-04-02T18:33:11Z' progress=0.998665 cache=64.8MiB(458908txo)
+2024-04-06T21:58:30Z UpdateTip: new best=0000000000000000000322113749d5e559fb8c68d2e5681a2c37b4ffca43586f height=837428 version=0x3fff0000 log2_work=94.835492 tx=983449928 date='2024-04-02T18:37:52Z' progress=0.998666 cache=65.9MiB(467423txo)
+2024-04-06T21:58:45Z UpdateTip: new best=000000000000000000024e44fed187433ff8f6ec9c0f161009e65318d9f679af height=837429 version=0x200a6000 log2_work=94.835506 tx=983450676 date='2024-04-02T18:38:34Z' progress=0.998666 cache=66.7MiB(474011txo)
+2024-04-06T21:58:49Z UpdateTip: new best=000000000000000000021e695e86889bc3630b54c2dfbcaa16cec83b135462c0 height=837430 version=0x20400000 log2_work=94.835521 tx=983451556 date='2024-04-02T18:40:01Z' progress=0.998667 cache=66.7MiB(473609txo)
+2024-04-06T21:59:00Z UpdateTip: new best=000000000000000000035296e0e1876a1cf7e7a968736053b37b67aea434234e height=837431 version=0x2dd84000 log2_work=94.835535 tx=983453549 date='2024-04-02T18:44:49Z' progress=0.998668 cache=67.6MiB(479928txo)
+2024-04-06T21:59:30Z UpdateTip: new best=000000000000000000027269194871cac2613f0857a009a4c7d98a5c5c60b9d8 height=837432 version=0x3c000000 log2_work=94.835550 tx=983453838 date='2024-04-02T18:45:03Z' progress=0.998668 cache=69.0MiB(492030txo)
+2024-04-06T21:59:40Z UpdateTip: new best=00000000000000000002c5d9006bb2df9a08ebf9beb711626378536746f58864 height=837433 version=0x3e000000 log2_work=94.835565 tx=983456070 date='2024-04-02T18:53:54Z' progress=0.998670 cache=69.9MiB(498880txo)
+2024-04-06T21:59:50Z UpdateTip: new best=0000000000000000000212aae24579235894723fbd11163b6a6085d50ffae346 height=837434 version=0x278fa000 log2_work=94.835579 tx=983459084 date='2024-04-02T19:10:09Z' progress=0.998673 cache=71.4MiB(510141txo)
+2024-04-06T22:00:00Z Loading addresses from DNS seed seed.btc.petertodd.org.
+2024-04-06T22:00:00Z Loading addresses from DNS seed dnsseed.bluematt.me.
+2024-04-06T22:00:00Z Loading addresses from DNS seed dnsseed.emzy.de.
+2024-04-06T22:00:01Z Waiting 300 seconds before querying DNS seeds.
+2024-04-06T22:00:05Z UpdateTip: new best=00000000000000000002d1607ecec451f5bd86fe9de99db7608d46a955cd0e07 height=837435 version=0x2626e000 log2_work=94.835594 tx=983461909 date='2024-04-02T19:16:55Z' progress=0.998675 cache=72.7MiB(520612txo)
+2024-04-06T22:00:20Z UpdateTip: new best=000000000000000000002534c42c08b74f4d7f3d7ff63d6588a194610ced87bd height=837436 version=0x20002000 log2_work=94.835608 tx=983465201 date='2024-04-02T19:36:44Z' progress=0.998679 cache=74.4MiB(534054txo)
+2024-04-06T22:00:43Z UpdateTip: new best=0000000000000000000095dcf5a660bb2c34d502d07e33cf6cb8c46d10ee793c height=837437 version=0x2000e000 log2_work=94.835623 tx=983468300 date='2024-04-02T19:47:13Z' progress=0.998681 cache=76.1MiB(547246txo)
+2024-04-06T22:00:59Z UpdateTip: new best=00000000000000000002a65b1340767ae5a5013a27a157768f1444909037d1de height=837438 version=0x2db54000 log2_work=94.835637 tx=983470109 date='2024-04-02T19:53:05Z' progress=0.998683 cache=77.0MiB(554414txo)
+2024-04-06T22:01:11Z UpdateTip: new best=000000000000000000022ccefe1a1746a3da4e4cc6b58d930ccfab7dfb4561b6 height=837439 version=0x200e2000 log2_work=94.835652 tx=983472307 date='2024-04-02T19:56:15Z' progress=0.998683 cache=77.8MiB(560128txo)
+2024-04-06T22:01:31Z UpdateTip: new best=0000000000000000000131b22efe9a4e813986872aceff1ec8065be5ca114fb8 height=837440 version=0x25f0e000 log2_work=94.835667 tx=983475332 date='2024-04-02T20:16:01Z' progress=0.998688 cache=79.6MiB(574112txo)
+2024-04-06T22:01:43Z UpdateTip: new best=000000000000000000024bb1d5c294094455462e804bc83e91e6fe8001d42f35 height=837441 version=0x20030000 log2_work=94.835681 tx=983478214 date='2024-04-02T20:27:23Z' progress=0.998690 cache=80.8MiB(584023txo)
+2024-04-06T22:02:10Z UpdateTip: new best=000000000000000000000c785aa04847f7fc12a39f3f8a1b072178c3a3e48e30 height=837442 version=0x25d12000 log2_work=94.835696 tx=983479157 date='2024-04-02T20:27:31Z' progress=0.998690 cache=82.3MiB(595811txo)
+2024-04-06T22:02:22Z UpdateTip: new best=000000000000000000000cbd826be2bece6f72d670af495e9decd94817ac1683 height=837443 version=0x31a1e000 log2_work=94.835710 tx=983480819 date='2024-04-02T20:33:00Z' progress=0.998691 cache=83.2MiB(603103txo)
+2024-04-06T22:02:24Z Synchronizing blockheaders, height: 838037 (~100.00%)
+2024-04-06T22:02:24Z New outbound peer connected: version: 70016, blocks=838037, peer=33 (outbound-full-relay)
+2024-04-06T22:02:38Z UpdateTip: new best=00000000000000000003422eee98b5cea87ab3ac0780895725b1b78801788605 height=837444 version=0x23832000 log2_work=94.835725 tx=983483910 date='2024-04-02T20:51:04Z' progress=0.998695 cache=84.8MiB(615557txo)
+2024-04-06T22:02:43Z UpdateTip: new best=000000000000000000002d66129fce65cd485379d134c483026519adfb689544 height=837445 version=0x299dc000 log2_work=94.835739 tx=983485533 date='2024-04-02T20:57:04Z' progress=0.998697 cache=85.1MiB(617924txo)
+2024-04-06T22:02:59Z UpdateTip: new best=00000000000000000002e55a147e5a2bba277bfb796f7b345244538b8d9e476d height=837446 version=0x2d1a0000 log2_work=94.835754 tx=983486258 date='2024-04-02T20:57:24Z' progress=0.998697 cache=86.2MiB(626229txo)
+2024-04-06T22:03:07Z UpdateTip: new best=00000000000000000000d49957aa0c88c492c103492ffffe19060834b0165ba8 height=837447 version=0x230d6000 log2_work=94.835769 tx=983489576 date='2024-04-02T21:33:11Z' progress=0.998705 cache=87.6MiB(637691txo)
+2024-04-06T22:03:22Z UpdateTip: new best=000000000000000000020f0db8c7df513f499d255d6d205fdf6cd5a904078721 height=837448 version=0x22478000 log2_work=94.835783 tx=983491641 date='2024-04-02T21:33:54Z' progress=0.998705 cache=88.9MiB(648030txo)
+2024-04-06T22:03:32Z UpdateTip: new best=000000000000000000023835c3dc2d03bd5056bf8b89ac98ad75ef327ab97ee8 height=837449 version=0x2bdea000 log2_work=94.835798 tx=983494230 date='2024-04-02T21:46:55Z' progress=0.998708 cache=90.1MiB(657530txo)
+2024-04-06T22:03:44Z UpdateTip: new best=00000000000000000000f3ffc8a768b7d6b3511c02977edb0345d6d59c149131 height=837450 version=0x29e8c000 log2_work=94.835812 tx=983495575 date='2024-04-02T21:47:44Z' progress=0.998708 cache=90.7MiB(661618txo)
+2024-04-06T22:03:50Z UpdateTip: new best=000000000000000000014a9c0b2965d81968fb2ff66de4516ca29a0c00608803 height=837451 version=0x20006000 log2_work=94.835827 tx=983498920 date='2024-04-02T22:04:30Z' progress=0.998711 cache=91.9MiB(670738txo)
+2024-04-06T22:03:55Z UpdateTip: new best=000000000000000000031684c3834d9d1912e6917a665294be2a944ed10b5c6c height=837452 version=0x336f0000 log2_work=94.835841 tx=983501595 date='2024-04-02T22:07:20Z' progress=0.998712 cache=92.9MiB(677015txo)
+2024-04-06T22:04:03Z UpdateTip: new best=00000000000000000000e49733d56957806853dd95cbf26d2fb0c721e4f4259d height=837453 version=0x2656a000 log2_work=94.835856 tx=983504770 date='2024-04-02T22:35:11Z' progress=0.998718 cache=94.1MiB(686734txo)
+2024-04-06T22:04:11Z UpdateTip: new best=000000000000000000012a709cb08e4c41aa4120c29d2af99e010931d903f727 height=837454 version=0x2d5ca000 log2_work=94.835871 tx=983507037 date='2024-04-02T22:44:08Z' progress=0.998720 cache=95.3MiB(695818txo)
+2024-04-06T22:04:19Z UpdateTip: new best=0000000000000000000189ed0f4b553cec4b4acf8e3dfce9c34b8b79b6194763 height=837455 version=0x32af4000 log2_work=94.835885 tx=983508126 date='2024-04-02T22:46:12Z' progress=0.998721 cache=96.0MiB(699971txo)
+2024-04-06T22:04:29Z UpdateTip: new best=00000000000000000002f2617a65e1a8f77c2219104edefef9efd353ee3be65a height=837456 version=0x2f20a000 log2_work=94.835900 tx=983511152 date='2024-04-02T23:01:22Z' progress=0.998724 cache=97.5MiB(711613txo)
+2024-04-06T22:04:36Z UpdateTip: new best=00000000000000000002a1d68504d15c4811d59e3f2772de60a424f5872a2322 height=837457 version=0x28b0c000 log2_work=94.835914 tx=983513691 date='2024-04-02T23:18:14Z' progress=0.998728 cache=104.6MiB(722245txo)
+2024-04-06T22:04:44Z UpdateTip: new best=0000000000000000000193e122c8e9a80d17ed3c2226d160f70dd67db4aa70bf height=837458 version=0x2b4e6000 log2_work=94.835929 tx=983514645 date='2024-04-02T23:19:29Z' progress=0.998728 cache=105.1MiB(726015txo)
+2024-04-06T22:04:48Z UpdateTip: new best=00000000000000000000a767783e58288d5f33a30b04d019e5d23d7bf7bc1b5c height=837459 version=0x3a000000 log2_work=94.835943 tx=983517494 date='2024-04-02T23:25:20Z' progress=0.998729 cache=105.9MiB(731211txo)
+2024-04-06T22:04:56Z UpdateTip: new best=000000000000000000032f532897989f9b2dd92311c71e90334cda5d6d0288bd height=837460 version=0x21122000 log2_work=94.835958 tx=983520532 date='2024-04-02T23:31:42Z' progress=0.998731 cache=107.1MiB(740087txo)
+2024-04-06T22:05:01Z Loading addresses from DNS seed dnsseed.bitcoin.dashjr.org.
+2024-04-06T22:05:01Z Loading addresses from DNS seed seed.bitcoin.jonasschnelli.ch.
+2024-04-06T22:05:01Z Loading addresses from DNS seed seed.bitcoin.wiz.biz.
+2024-04-06T22:05:01Z 321 addresses found from DNS seeds
+2024-04-06T22:05:01Z dnsseed thread exit
+2024-04-06T22:05:05Z UpdateTip: new best=000000000000000000033f2185d88e436d87c78463e91dc91ed80555a05b52fa height=837461 version=0x2000e000 log2_work=94.835973 tx=983523188 date='2024-04-02T23:47:43Z' progress=0.998734 cache=109.0MiB(752991txo)
+2024-04-06T22:05:08Z New outbound peer connected: version: 70016, blocks=838038, peer=42 (outbound-full-relay)
+2024-04-06T22:05:14Z UpdateTip: new best=0000000000000000000124df8d79322952014ec2d67eec04b79f150f44902371 height=837462 version=0x2015e000 log2_work=94.835987 tx=983524242 date='2024-04-02T23:48:53Z' progress=0.998734 cache=109.9MiB(759869txo)
+2024-04-06T22:05:27Z UpdateTip: new best=000000000000000000029e5540f4f56dd507c60f19e55e07925c13dea56b0094 height=837463 version=0x2cafc000 log2_work=94.836002 tx=983527260 date='2024-04-03T00:22:38Z' progress=0.998742 cache=111.6MiB(772728txo)
+2024-04-06T22:05:33Z UpdateTip: new best=000000000000000000025fb52dfecca56cce435fd46158a3f5b99a4e4f70a94d height=837464 version=0x341c0000 log2_work=94.836016 tx=983529994 date='2024-04-03T00:29:13Z' progress=0.998743 cache=112.6MiB(780117txo)
+2024-04-06T22:05:37Z UpdateTip: new best=00000000000000000002d8c0bf0468f98c8ea9aad8ed345feba7863448c1af87 height=837465 version=0x25872000 log2_work=94.836031 tx=983532536 date='2024-04-03T00:38:16Z' progress=0.998745 cache=113.5MiB(786130txo)
+2024-04-06T22:05:50Z UpdateTip: new best=00000000000000000002bb2c060ccea17c11b2332141bbc9230ae108910a411d height=837466 version=0x2b548000 log2_work=94.836045 tx=983535015 date='2024-04-03T00:54:05Z' progress=0.998749 cache=114.9MiB(796901txo)
+2024-04-06T22:05:55Z UpdateTip: new best=000000000000000000011b03fa0f51279f9c2fcbf9ab117017081c63e5092daf height=837467 version=0x23e2a000 log2_work=94.836060 tx=983538489 date='2024-04-03T00:57:22Z' progress=0.998750 cache=115.3MiB(800538txo)
+2024-04-06T22:06:10Z UpdateTip: new best=00000000000000000000d32e8f5ea20427a05a4b9bd9509c39699511c16993ed height=837468 version=0x2c7a6000 log2_work=94.836075 tx=983538627 date='2024-04-03T00:57:37Z' progress=0.998750 cache=116.1MiB(806859txo)
+2024-04-06T22:06:21Z UpdateTip: new best=0000000000000000000179b0bd2511b5db4c5f0b164d646de35a36ec09a782a2 height=837469 version=0x2fbf2000 log2_work=94.836089 tx=983541377 date='2024-04-03T01:23:26Z' progress=0.998755 cache=117.6MiB(818190txo)
+2024-04-06T22:06:29Z UpdateTip: new best=00000000000000000000d0a9e6d702c9a54e468be680a0fc95714789249e11bf height=837470 version=0x28448000 log2_work=94.836104 tx=983544098 date='2024-04-03T01:38:34Z' progress=0.998759 cache=119.0MiB(828124txo)
+2024-04-06T22:06:46Z UpdateTip: new best=000000000000000000010dbf04b67356ca40f7bd1a9f57055c096c9c6bcc0689 height=837471 version=0x2ac14000 log2_work=94.836118 tx=983545548 date='2024-04-03T01:42:42Z' progress=0.998760 cache=120.3MiB(837679txo)
+2024-04-06T22:06:56Z UpdateTip: new best=000000000000000000022e3b923afc7bd19348f7f09355ea2246fe52fdb65eb3 height=837472 version=0x2f574000 log2_work=94.836133 tx=983548761 date='2024-04-03T02:22:14Z' progress=0.998768 cache=121.8MiB(850039txo)
+2024-04-06T22:07:02Z New outbound peer connected: version: 70016, blocks=838038, peer=53 (outbound-full-relay)
+2024-04-06T22:07:11Z UpdateTip: new best=0000000000000000000349155083e44453b5f1c0e71cc90f8a5cf07397ffca2d height=837473 version=0x20018000 log2_work=94.836147 tx=983550820 date='2024-04-03T02:22:55Z' progress=0.998768 cache=123.3MiB(860549txo)
+2024-04-06T22:07:21Z UpdateTip: new best=0000000000000000000312bda14258fa42b37d2dbf8d1d12c4649553c5674c57 height=837474 version=0x31186000 log2_work=94.836162 tx=983552714 date='2024-04-03T02:27:42Z' progress=0.998769 cache=124.3MiB(867541txo)
+2024-04-06T22:07:31Z UpdateTip: new best=00000000000000000001828cc53c3a3e60c206b98b847f68fee5244df7e34a19 height=837475 version=0x23a34000 log2_work=94.836177 tx=983554295 date='2024-04-03T02:34:17Z' progress=0.998771 cache=125.3MiB(874506txo)
+2024-04-06T22:07:37Z UpdateTip: new best=00000000000000000000845a29fb7f96f736467f2502ed0b61bdaf9453cf6f9a height=837476 version=0x20008000 log2_work=94.836191 tx=983559396 date='2024-04-03T02:34:59Z' progress=0.998771 cache=125.4MiB(877349txo)
+2024-04-06T22:07:45Z UpdateTip: new best=0000000000000000000184760b2c3619775fe21bad11be5053006cb875559bad height=837477 version=0x2678a000 log2_work=94.836206 tx=983561846 date='2024-04-03T02:52:18Z' progress=0.998775 cache=126.8MiB(888065txo)
+2024-04-06T22:07:47Z Synchronizing blockheaders, height: 838038 (~100.00%)
+2024-04-06T22:07:56Z UpdateTip: new best=00000000000000000000c27960456ff47fa50efe72bc678379db394af57ed555 height=837478 version=0x20400000 log2_work=94.836220 tx=983563705 date='2024-04-03T03:03:22Z' progress=0.998777 cache=127.9MiB(895860txo)
+2024-04-06T22:08:10Z UpdateTip: new best=000000000000000000013a7c29390eded0c938ffec260075dd505a35e23c4a23 height=837479 version=0x2b82e000 log2_work=94.836235 tx=983565655 date='2024-04-03T03:04:50Z' progress=0.998778 cache=128.9MiB(903302txo)
+2024-04-06T22:08:12Z UpdateTip: new best=00000000000000000001241ca0a6d882380f8e388ef87c936fca1b3a90eff8f6 height=837480 version=0x21bc4000 log2_work=94.836249 tx=983565886 date='2024-04-03T03:05:48Z' progress=0.998778 cache=129.2MiB(905113txo)
+2024-04-06T22:08:19Z UpdateTip: new best=00000000000000000001080a4ee68b9c7c9a5d6f416cd7eb96c2a10b8cbb3a73 height=837481 version=0x2b3a8000 log2_work=94.836264 tx=983568179 date='2024-04-03T03:14:45Z' progress=0.998780 cache=130.2MiB(912820txo)
+2024-04-06T22:08:24Z UpdateTip: new best=000000000000000000027655ab6e996f4b0e3f39ac553fe5b27389fa661b5af2 height=837482 version=0x259c6000 log2_work=94.836279 tx=983569227 date='2024-04-03T03:18:37Z' progress=0.998781 cache=130.9MiB(916862txo)
+2024-04-06T22:08:27Z New outbound peer connected: version: 70016, blocks=838036, peer=60 (outbound-full-relay)
+2024-04-06T22:08:32Z UpdateTip: new best=0000000000000000000106d777a914caa368450c60592dfc0f7c4a87c32b1d30 height=837483 version=0x28bdc000 log2_work=94.836293 tx=983569406 date='2024-04-03T03:18:59Z' progress=0.998781 cache=131.2MiB(919678txo)
+2024-04-06T22:08:38Z UpdateTip: new best=000000000000000000026a6f7a87c3fb6cb12b933dc70398c16cd1f6d21aa9df height=837484 version=0x20c00000 log2_work=94.836308 tx=983571128 date='2024-04-03T03:25:20Z' progress=0.998782 cache=132.1MiB(925926txo)
+2024-04-06T22:08:46Z UpdateTip: new best=0000000000000000000147b75b5e16da6da2097f5e5514bef3d65cb964d237df height=837485 version=0x2fa6a000 log2_work=94.836322 tx=983571346 date='2024-04-03T03:25:59Z' progress=0.998782 cache=132.5MiB(929128txo)
+2024-04-06T22:08:51Z UpdateTip: new best=00000000000000000000fbfcbcd721b566481571c1ae37fe20b5bfb820a5c3fc height=837486 version=0x28b7c000 log2_work=94.836337 tx=983572781 date='2024-04-03T03:32:07Z' progress=0.998784 cache=133.3MiB(934651txo)
+2024-04-06T22:09:00Z UpdateTip: new best=0000000000000000000008e9306a2883721f0486973eb23edf1ea9d3efa1f5dd height=837487 version=0x2e000000 log2_work=94.836351 tx=983575398 date='2024-04-03T03:49:33Z' progress=0.998787 cache=134.5MiB(943180txo)
+2024-04-06T22:09:04Z UpdateTip: new best=000000000000000000024fe81b5ff7fc9c81cc73a5a6065a6acce481cccd6ef0 height=837488 version=0x334b0000 log2_work=94.836366 tx=983577490 date='2024-04-03T03:58:55Z' progress=0.998790 cache=135.9MiB(952304txo)
+2024-04-06T22:09:09Z UpdateTip: new best=000000000000000000019d2f6c0fe97d3aa0c864ba50e49ec38c6b31031fd8b9 height=837489 version=0x200ce000 log2_work=94.836380 tx=983580378 date='2024-04-03T04:08:22Z' progress=0.998792 cache=136.8MiB(958928txo)
+2024-04-06T22:09:13Z New outbound peer connected: version: 70015, blocks=838038, peer=65 (outbound-full-relay)
+2024-04-06T22:09:17Z UpdateTip: new best=00000000000000000001df0d1f2c7cedd13be2b2bc1d26fc6cb2c62fc3deedf0 height=837490 version=0x2a88a000 log2_work=94.836395 tx=983582632 date='2024-04-03T04:30:01Z' progress=0.998796 cache=139.2MiB(977524txo)
+2024-04-06T22:09:22Z UpdateTip: new best=0000000000000000000251d9450f250384272225fa4613ae9379c09e148d3e13 height=837491 version=0x2001e000 log2_work=94.836410 tx=983585644 date='2024-04-03T04:37:45Z' progress=0.998798 cache=140.7MiB(987159txo)
+2024-04-06T22:09:25Z UpdateTip: new best=00000000000000000002536093886d095dac7a230cf1b4d087bd741638faf7f4 height=837492 version=0x23ffe000 log2_work=94.836424 tx=983588704 date='2024-04-03T04:43:51Z' progress=0.998799 cache=141.5MiB(992124txo)
+2024-04-06T22:09:25Z New outbound peer connected: version: 70016, blocks=838038, peer=66 (outbound-full-relay)
+2024-04-06T22:09:32Z UpdateTip: new best=00000000000000000001f3c58d91f30ee01954695209058ccd0857bac7e7f553 height=837493 version=0x242ea000 log2_work=94.836439 tx=983592072 date='2024-04-03T04:47:52Z' progress=0.998800 cache=142.5MiB(998916txo)
+2024-04-06T22:09:33Z New outbound peer connected: version: 70016, blocks=838038, peer=67 (outbound-full-relay)
+2024-04-06T22:09:38Z UpdateTip: new best=00000000000000000002e715925a9511f621de63f13b72ab9509279eb3ceed67 height=837494 version=0x20400000 log2_work=94.836453 tx=983595421 date='2024-04-03T05:46:40Z' progress=0.998813 cache=143.9MiB(1008832txo)
+2024-04-06T22:09:51Z UpdateTip: new best=00000000000000000002831d49fe95f4d9c6b9d38ea84dd9c72dbdc414879415 height=837495 version=0x2000a000 log2_work=94.836468 tx=983596458 date='2024-04-03T06:04:21Z' progress=0.998817 cache=144.8MiB(1015924txo)
+2024-04-06T22:09:58Z UpdateTip: new best=00000000000000000000de9e10417ff5592a76b4e518952c128b73633573e569 height=837496 version=0x20976000 log2_work=94.836482 tx=983600471 date='2024-04-03T06:07:47Z' progress=0.998818 cache=145.9MiB(1023614txo)
+2024-04-06T22:09:58Z New outbound peer connected: version: 70016, blocks=838038, peer=71 (outbound-full-relay)
+2024-04-06T22:10:04Z UpdateTip: new best=000000000000000000012bd821d9d4baa773aa456b9f33571f7abe2d5d1c26ba height=837497 version=0x24d36000 log2_work=94.836497 tx=983604879 date='2024-04-03T06:11:13Z' progress=0.998819 cache=147.0MiB(1031124txo)
+2024-04-06T22:10:10Z UpdateTip: new best=00000000000000000000b24b34c4a13ea4a999420d381256a036bef0c48798c4 height=837498 version=0x20688000 log2_work=94.836512 tx=983608773 date='2024-04-03T06:41:07Z' progress=0.998826 cache=148.3MiB(1040796txo)
+2024-04-06T22:10:17Z UpdateTip: new best=0000000000000000000105ff48a0ac5588eb701d1738e96f29aff1cd8c959ad8 height=837499 version=0x24a02000 log2_work=94.836526 tx=983611948 date='2024-04-03T06:51:28Z' progress=0.998828 cache=149.1MiB(1046842txo)
+2024-04-06T22:10:24Z UpdateTip: new best=000000000000000000031b89c37ba403efad694af2339666b76cab1240ee263e height=837500 version=0x3186c000 log2_work=94.836541 tx=983615887 date='2024-04-03T06:53:34Z' progress=0.998828 cache=149.9MiB(1052421txo)
+2024-04-06T22:10:25Z New outbound peer connected: version: 70016, blocks=838038, peer=73 (outbound-full-relay)
+2024-04-06T22:10:34Z UpdateTip: new best=000000000000000000032b0082b4eb0cab2a4fa1c8a5805bd3cb34a1dc017b8e height=837501 version=0x232c2000 log2_work=94.836555 tx=983618682 date='2024-04-03T07:00:11Z' progress=0.998830 cache=151.1MiB(1061379txo)
+2024-04-06T22:10:39Z UpdateTip: new best=00000000000000000000040ad5066aa9ad8f94ea3612afa4967483da91903d61 height=837502 version=0x2239e000 log2_work=94.836570 tx=983621743 date='2024-04-03T07:02:14Z' progress=0.998830 cache=152.0MiB(1066996txo)
+2024-04-06T22:10:44Z UpdateTip: new best=0000000000000000000143fec05848041edc5cd65ca4fd294ab2cba48a14bc8b height=837503 version=0x2b23a000 log2_work=94.836584 tx=983624652 date='2024-04-03T07:03:34Z' progress=0.998830 cache=153.0MiB(1073935txo)
+2024-04-06T22:10:49Z UpdateTip: new best=00000000000000000002322680b12222a39f46968196fd437ed62aca50ee5e7e height=837504 version=0x20018000 log2_work=94.836599 tx=983627368 date='2024-04-03T07:07:11Z' progress=0.998831 cache=153.8MiB(1078938txo)
+2024-04-06T22:10:54Z UpdateTip: new best=0000000000000000000007fb6fec8ab2bf17816ea8e3754d67ca59b49113ce91 height=837505 version=0x2018c000 log2_work=94.836613 tx=983630207 date='2024-04-03T07:16:12Z' progress=0.998833 cache=154.7MiB(1085772txo)
+2024-04-06T22:11:00Z UpdateTip: new best=00000000000000000000e1bbd5d160e12bf739a12111414b1bd26786b0af4ad1 height=837506 version=0x2000e000 log2_work=94.836628 tx=983631984 date='2024-04-03T07:23:21Z' progress=0.998835 cache=156.1MiB(1095675txo)
+2024-04-06T22:11:07Z UpdateTip: new best=0000000000000000000355de86761de213e92666e9bc59525e740ed4965f7c89 height=837507 version=0x20000000 log2_work=94.836643 tx=983633864 date='2024-04-03T07:32:06Z' progress=0.998837 cache=157.0MiB(1102229txo)
+2024-04-06T22:11:12Z UpdateTip: new best=0000000000000000000325f74b4f6504441d3f7d5c6d0c24fe0bed05c0ccc384 height=837508 version=0x2000e000 log2_work=94.836657 tx=983635905 date='2024-04-03T07:42:11Z' progress=0.998839 cache=158.1MiB(1109844txo)
+2024-04-06T22:11:23Z UpdateTip: new best=000000000000000000010c3df143305265ae17ebdcbe5f981e72036cd0c660b2 height=837509 version=0x2015c000 log2_work=94.836672 tx=983638788 date='2024-04-03T07:54:02Z' progress=0.998842 cache=159.2MiB(1118282txo)
+2024-04-06T22:11:30Z UpdateTip: new best=000000000000000000024be12f60241f971f0edaec76ce22fa98ad54cb7438ef height=837510 version=0x26bf2004 log2_work=94.836686 tx=983641781 date='2024-04-03T08:12:14Z' progress=0.998846 cache=160.4MiB(1126501txo)
+2024-04-06T22:11:42Z UpdateTip: new best=000000000000000000021fe375c843302811516b9a4647a78404fdbc23d992c1 height=837511 version=0x20c00000 log2_work=94.836701 tx=983642486 date='2024-04-03T08:12:41Z' progress=0.998846 cache=161.2MiB(1132497txo)
+2024-04-06T22:11:44Z UpdateTip: new best=00000000000000000000a908371d1d863e0e4f0bdd437ea58b97f9ad4fd92cd8 height=837512 version=0x33c34000 log2_work=94.836715 tx=983643142 date='2024-04-03T08:13:47Z' progress=0.998846 cache=161.4MiB(1133632txo)
+2024-04-06T22:11:59Z UpdateTip: new best=0000000000000000000140ec1bfb47d2b96c1ec388d9451b5d4292379e27730d height=837513 version=0x219be000 log2_work=94.836730 tx=983644921 date='2024-04-03T08:21:41Z' progress=0.998848 cache=162.3MiB(1140818txo)
+2024-04-06T22:12:06Z UpdateTip: new best=0000000000000000000351ae7412ccbaea1e36c8aa10fd9a6ac845751f17d9ff height=837514 version=0x21a8c000 log2_work=94.836745 tx=983648009 date='2024-04-03T08:42:29Z' progress=0.998852 cache=163.1MiB(1146835txo)
+2024-04-06T22:12:15Z UpdateTip: new best=000000000000000000009da2e1fa0b91b4e19c7d96a6a093d7b95d6554051d7e height=837515 version=0x2df62000 log2_work=94.836759 tx=983649610 date='2024-04-03T08:44:17Z' progress=0.998853 cache=163.4MiB(1149342txo)
+2024-04-06T22:12:21Z UpdateTip: new best=0000000000000000000019977fa4f27056cce33c8f1e17763416759f353e7fcd height=837516 version=0x36000000 log2_work=94.836774 tx=983652393 date='2024-04-03T08:47:53Z' progress=0.998853 cache=164.0MiB(1153660txo)
+2024-04-06T22:12:30Z UpdateTip: new best=000000000000000000002569cf085ef79c0c66a256adb5f65c7cc2b968c16f76 height=837517 version=0x20004000 log2_work=94.836788 tx=983655141 date='2024-04-03T08:59:12Z' progress=0.998856 cache=165.1MiB(1161365txo)
+2024-04-06T22:12:40Z UpdateTip: new best=00000000000000000001de53091a23285aaeb1b22737fef6540cc88c3be61710 height=837518 version=0x2283c000 log2_work=94.836803 tx=983656931 date='2024-04-03T09:04:41Z' progress=0.998857 cache=166.0MiB(1168693txo)
+2024-04-06T22:12:48Z UpdateTip: new best=00000000000000000000c649e4f871aea3708b7a9c5a64e5c2c7f64415e20031 height=837519 version=0x2d490000 log2_work=94.836817 tx=983660056 date='2024-04-03T09:27:46Z' progress=0.998862 cache=167.3MiB(1178508txo)
+2024-04-06T22:13:01Z UpdateTip: new best=000000000000000000004dd3354eef5bfc63b01f4f5dcc3899d1608105b6dbc9 height=837520 version=0x3fff0000 log2_work=94.836832 tx=983662324 date='2024-04-03T09:41:26Z' progress=0.998865 cache=168.5MiB(1187761txo)
+2024-04-06T22:13:11Z UpdateTip: new best=000000000000000000014836da5180917736477fb0127adb3bcc9ae66075164c height=837521 version=0x20000000 log2_work=94.836846 tx=983664975 date='2024-04-03T09:57:33Z' progress=0.998869 cache=169.7MiB(1197305txo)
+2024-04-06T22:13:22Z UpdateTip: new best=00000000000000000001ce868208f43e996c22e63abbe23c6ff9e7a382b1b887 height=837522 version=0x24342000 log2_work=94.836861 tx=983667456 date='2024-04-03T10:06:01Z' progress=0.998871 cache=170.6MiB(1204491txo)
+2024-04-06T22:13:33Z UpdateTip: new best=000000000000000000020e71637feee9b8d3c2dcbc71f14d54bc5a24c711c38a height=837523 version=0x2dfbe000 log2_work=94.836876 tx=983669268 date='2024-04-03T10:08:07Z' progress=0.998871 cache=171.4MiB(1210256txo)
+2024-04-06T22:13:43Z UpdateTip: new best=000000000000000000012893a13287c15a41287cec51be7443a07b7c0b434d7d height=837524 version=0x2a000000 log2_work=94.836890 tx=983672297 date='2024-04-03T10:24:26Z' progress=0.998875 cache=172.5MiB(1218459txo)
+2024-04-06T22:13:56Z UpdateTip: new best=0000000000000000000209ade4bed3a25fa250a630b3bf06de99ec3ae66b6805 height=837525 version=0x2a4e4000 log2_work=94.836905 tx=983673626 date='2024-04-03T10:27:32Z' progress=0.998875 cache=173.7MiB(1228291txo)
+2024-04-06T22:14:09Z UpdateTip: new best=00000000000000000002a41d11c77786e1c93bd95f8645ebd2bdce8fd81e33b7 height=837526 version=0x207da000 log2_work=94.836919 tx=983674663 date='2024-04-03T10:28:19Z' progress=0.998876 cache=174.6MiB(1234350txo)
+2024-04-06T22:14:12Z UpdateTip: new best=00000000000000000002c684af4443299ac964c66721eccbd0b0fdde9d28cbf1 height=837527 version=0x20a00000 log2_work=94.836934 tx=983675330 date='2024-04-03T10:29:28Z' progress=0.998876 cache=174.7MiB(1235535txo)
+2024-04-06T22:14:19Z UpdateTip: new best=000000000000000000014bfe2c8ce622e10bd600131be9eed3b7d38521748223 height=837528 version=0x27e22000 log2_work=94.836948 tx=983678064 date='2024-04-03T10:34:11Z' progress=0.998877 cache=175.3MiB(1241139txo)
+2024-04-06T22:14:25Z UpdateTip: new best=0000000000000000000032722ee6110b5ee92455112f49c312c5b5f5e8308dbf height=837529 version=0x20004000 log2_work=94.836963 tx=983680235 date='2024-04-03T10:42:52Z' progress=0.998879 cache=176.0MiB(1246466txo)
+2024-04-06T22:14:32Z UpdateTip: new best=00000000000000000001a1c8f7efd30816b23afeca92dfce195e9422f264efbf height=837530 version=0x33b8e000 log2_work=94.836977 tx=983682157 date='2024-04-03T10:48:54Z' progress=0.998880 cache=176.8MiB(1252049txo)
+2024-04-06T22:14:33Z UpdateTip: new best=0000000000000000000138d85b66c28807e4802b07672d48b56085dc11cc9c06 height=837531 version=0x25550000 log2_work=94.836992 tx=983682327 date='2024-04-03T10:49:18Z' progress=0.998880 cache=177.2MiB(1254541txo)
+2024-04-06T22:14:41Z UpdateTip: new best=000000000000000000000512f34ef0f6dc0c2895f3ed2e833227508b0100271a height=837532 version=0x20038000 log2_work=94.837007 tx=983683070 date='2024-04-03T10:50:01Z' progress=0.998880 cache=177.6MiB(1257748txo)
+2024-04-06T22:14:48Z UpdateTip: new best=00000000000000000002793e6716268f84b6592a58f3f391b6dc0821cbece3d4 height=837533 version=0x20152000 log2_work=94.837021 tx=983686395 date='2024-04-03T11:08:24Z' progress=0.998884 cache=178.9MiB(1267439txo)
+2024-04-06T22:14:56Z UpdateTip: new best=0000000000000000000185d6be109844839fbb6c9211fd129c366da8753e7691 height=837534 version=0x20000000 log2_work=94.837036 tx=983689804 date='2024-04-03T11:14:02Z' progress=0.998886 cache=179.4MiB(1271983txo)
+2024-04-06T22:15:04Z UpdateTip: new best=0000000000000000000137a241d32511243d4206ca994c897e25238b4365ac61 height=837535 version=0x221ba000 log2_work=94.837050 tx=983692938 date='2024-04-03T11:30:14Z' progress=0.998889 cache=180.5MiB(1280232txo)
+2024-04-06T22:15:13Z UpdateTip: new best=0000000000000000000157e741991831f8afa08fe6d75d855568dedab0dbad62 height=837536 version=0x2a6fa000 log2_work=94.837065 tx=983695139 date='2024-04-03T11:39:04Z' progress=0.998891 cache=181.8MiB(1288959txo)
+2024-04-06T22:15:23Z UpdateTip: new best=000000000000000000016aa8c9839dfd8b583d42202f5e4c7c017ae0e1dc74bd height=837537 version=0x20004000 log2_work=94.837079 tx=983698519 date='2024-04-03T11:53:46Z' progress=0.998894 cache=182.9MiB(1297608txo)
+2024-04-06T22:15:29Z UpdateTip: new best=00000000000000000002d5332c2476f5a8ef9540a7366457f6869c00d9f6cfed height=837538 version=0x20016000 log2_work=94.837094 tx=983702024 date='2024-04-03T11:57:03Z' progress=0.998895 cache=183.3MiB(1301859txo)
+2024-04-06T22:15:38Z UpdateTip: new best=0000000000000000000015e1e9a6a8a1910fbf2b8587430e5d73dcff324a7bf1 height=837539 version=0x2ed88000 log2_work=94.837108 tx=983704733 date='2024-04-03T12:10:31Z' progress=0.998898 cache=184.3MiB(1309137txo)
+2024-04-06T22:15:51Z UpdateTip: new best=000000000000000000006a17f4520a601f396396d3f6f41275def18480efaa01 height=837540 version=0x29dba000 log2_work=94.837123 tx=983705973 date='2024-04-03T12:11:59Z' progress=0.998898 cache=185.0MiB(1314409txo)
+2024-04-06T22:15:57Z UpdateTip: new best=00000000000000000000fb78939be028025d650d8b43cd272b3871b05f4e868c height=837541 version=0x20002000 log2_work=94.837138 tx=983707762 date='2024-04-03T12:16:56Z' progress=0.998899 cache=185.6MiB(1318524txo)
+2024-04-06T22:16:06Z UpdateTip: new best=0000000000000000000271e33c8ead788d3fefc6fbcef6eaba8a8f6430ff4282 height=837542 version=0x20000000 log2_work=94.837152 tx=983710444 date='2024-04-03T12:30:23Z' progress=0.998902 cache=187.1MiB(1330529txo)
+2024-04-06T22:16:13Z UpdateTip: new best=000000000000000000012566c72208991f2b5fc5a7fc27f184a1c414eb62f015 height=837543 version=0x2000a000 log2_work=94.837167 tx=983713012 date='2024-04-03T12:40:11Z' progress=0.998905 cache=188.0MiB(1337595txo)
+2024-04-06T22:16:19Z UpdateTip: new best=000000000000000000005ba4355812fc52fe7442dafb28c047f66900aa85cc21 height=837544 version=0x2317c000 log2_work=94.837181 tx=983715759 date='2024-04-03T12:51:42Z' progress=0.998907 cache=189.0MiB(1345081txo)
+2024-04-06T22:16:26Z UpdateTip: new best=00000000000000000000c051324f711c7c909ad3fdffacc557ac8c880e05f4e1 height=837545 version=0x20600000 log2_work=94.837196 tx=983719541 date='2024-04-03T13:18:38Z' progress=0.998913 cache=190.3MiB(1355286txo)
+2024-04-06T22:16:32Z UpdateTip: new best=000000000000000000016de3d502f9427b5941003dd00c31de4dfbe8ce5df6b8 height=837546 version=0x20918000 log2_work=94.837210 tx=983720999 date='2024-04-03T13:22:15Z' progress=0.998914 cache=191.0MiB(1360439txo)
+2024-04-06T22:16:38Z UpdateTip: new best=00000000000000000001aca6aa8a7a265ee4cb994e0f240c17a6067bd40f35d6 height=837547 version=0x3c000000 log2_work=94.837225 tx=983723721 date='2024-04-03T13:32:11Z' progress=0.998916 cache=191.9MiB(1366895txo)
+2024-04-06T22:16:45Z UpdateTip: new best=000000000000000000013f147b582091e86e87c3a71baab67baa15a7ed596695 height=837548 version=0x27c10000 log2_work=94.837239 tx=983727187 date='2024-04-03T13:58:57Z' progress=0.998922 cache=193.2MiB(1376899txo)
+2024-04-06T22:16:55Z UpdateTip: new best=00000000000000000002d2e35885a7bda6d63aaa846c87d3451b2c8494bb0d3c height=837549 version=0x20800000 log2_work=94.837254 tx=983729520 date='2024-04-03T13:59:44Z' progress=0.998922 cache=193.9MiB(1382478txo)
+2024-04-06T22:17:01Z UpdateTip: new best=0000000000000000000196e9e7ba16b4ea9e697d669357750f0531e79e186cc5 height=837550 version=0x2de32000 log2_work=94.837269 tx=983731493 date='2024-04-03T14:00:21Z' progress=0.998922 cache=194.4MiB(1385613txo)
+2024-04-06T22:17:12Z UpdateTip: new best=00000000000000000001ef2645c6d8da39254c96ae99c7c54745e362e4702ff0 height=837551 version=0x25588000 log2_work=94.837283 tx=983733160 date='2024-04-03T14:00:31Z' progress=0.998922 cache=194.8MiB(1389013txo)
+2024-04-06T22:17:16Z UpdateTip: new best=000000000000000000020d60cf50223da63f29a7269e46a877fd0744c2181f34 height=837552 version=0x2e000000 log2_work=94.837298 tx=983737155 date='2024-04-03T14:18:14Z' progress=0.998926 cache=196.2MiB(1399795txo)
+2024-04-06T22:17:23Z UpdateTip: new best=0000000000000000000297035910cb2fb93b5c5062ad647d8451a71011179a65 height=837553 version=0x3fff0000 log2_work=94.837312 tx=983739856 date='2024-04-03T14:20:09Z' progress=0.998927 cache=197.2MiB(1406982txo)
+2024-04-06T22:17:25Z UpdateTip: new best=00000000000000000000e87121bbe0329a740b6f8e6a3a8e5111341ce94621f0 height=837554 version=0x2001c000 log2_work=94.837327 tx=983742364 date='2024-04-03T14:22:01Z' progress=0.998927 cache=198.0MiB(1412461txo)
+2024-04-06T22:17:38Z UpdateTip: new best=00000000000000000001cb0274bfa20d8854c34ced222fa208dfdf0abb215a55 height=837555 version=0x2000e000 log2_work=94.837341 tx=983744026 date='2024-04-03T14:22:21Z' progress=0.998927 cache=198.6MiB(1417344txo)
+2024-04-06T22:17:57Z UpdateTip: new best=000000000000000000032f06129699e178bd415a091942ab411d859ed5ff8edc height=837556 version=0x20002000 log2_work=94.837356 tx=983744451 date='2024-04-03T14:22:39Z' progress=0.998927 cache=199.7MiB(1425644txo)
+2024-04-06T22:18:09Z UpdateTip: new best=00000000000000000000f4cb3ac4534944427242821a16892d4528a7d71f7cbb height=837557 version=0x2a958000 log2_work=94.837370 tx=983746567 date='2024-04-03T14:25:32Z' progress=0.998928 cache=200.5MiB(1432013txo)
+2024-04-06T22:18:14Z UpdateTip: new best=00000000000000000003124ddd704845ff0b80e92937e1f1e6e8d123d1352bff height=837558 version=0x20a00000 log2_work=94.837385 tx=983750420 date='2024-04-03T14:35:15Z' progress=0.998930 cache=201.9MiB(1442954txo)
+2024-04-06T22:18:18Z UpdateTip: new best=000000000000000000018ef8efcdee30cb4e7d776fbbb5fef9f31c37a1189346 height=837559 version=0x31f5e000 log2_work=94.837400 tx=983754988 date='2024-04-03T14:59:33Z' progress=0.998935 cache=215.2MiB(1458106txo)
+2024-04-06T22:18:23Z UpdateTip: new best=00000000000000000001dd9423cb08779ec1702a2ec7fc510bdce1dd873d6699 height=837560 version=0x20012000 log2_work=94.837414 tx=983759236 date='2024-04-03T15:04:21Z' progress=0.998936 cache=216.8MiB(1470862txo)
+2024-04-06T22:18:33Z UpdateTip: new best=000000000000000000005d90cb4f252ec89b9fe7c4a6699ba922112e38a05fa9 height=837561 version=0x2acd4000 log2_work=94.837429 tx=983762732 date='2024-04-03T15:08:37Z' progress=0.998937 cache=218.3MiB(1481810txo)
+2024-04-06T22:18:40Z UpdateTip: new best=0000000000000000000296904bdf565117aab58aefbd975f7c96bb1e86763532 height=837562 version=0x2ccbc000 log2_work=94.837443 tx=983766369 date='2024-04-03T15:39:22Z' progress=0.998944 cache=220.2MiB(1496558txo)
+2024-04-06T22:18:51Z UpdateTip: new best=00000000000000000002b6a1fe2cf4e3b68aca0ef701e60cc2183036317e1356 height=837563 version=0x298c4000 log2_work=94.837458 tx=983768622 date='2024-04-03T15:43:41Z' progress=0.998945 cache=223.1MiB(1518598txo)
+2024-04-06T22:18:59Z UpdateTip: new best=000000000000000000027ad0479275cc6d0f56577c5102bde32087c8d89c8a30 height=837564 version=0x23cc0000 log2_work=94.837472 tx=983772225 date='2024-04-03T15:47:39Z' progress=0.998946 cache=224.4MiB(1528240txo)
+2024-04-06T22:19:08Z UpdateTip: new best=00000000000000000000df9a11c5c081eec2a64b1cd8c027fd93407c47a7b642 height=837565 version=0x24eb6000 log2_work=94.837487 tx=983775764 date='2024-04-03T15:47:57Z' progress=0.998946 cache=225.4MiB(1535606txo)
+2024-04-06T22:19:11Z UpdateTip: new best=00000000000000000003464e8c8f7ff8f68981ea27adf80621f028a516dfff23 height=837566 version=0x2664a000 log2_work=94.837501 tx=983779844 date='2024-04-03T15:57:06Z' progress=0.998948 cache=226.9MiB(1545346txo)
+2024-04-06T22:19:20Z UpdateTip: new best=0000000000000000000140f0db7d2f778af22ebc6699ca61538c86eaf522f31e height=837567 version=0x2932e004 log2_work=94.837516 tx=983783248 date='2024-04-03T15:57:13Z' progress=0.998948 cache=228.0MiB(1553636txo)
+2024-04-06T22:19:28Z UpdateTip: new best=00000000000000000000f55ee23d8d672f7c7bc17ab3c429a9ebe11e2c8236a5 height=837568 version=0x26414000 log2_work=94.837531 tx=983787611 date='2024-04-03T16:04:22Z' progress=0.998950 cache=229.0MiB(1561664txo)
+2024-04-06T22:19:33Z UpdateTip: new best=0000000000000000000097385c5a3bfb6a92cb9c6dd2e39b7623b4fa2e01c5bb height=837569 version=0x31a8e000 log2_work=94.837545 tx=983791068 date='2024-04-03T17:08:20Z' progress=0.998964 cache=231.0MiB(1576458txo)
+2024-04-06T22:19:40Z UpdateTip: new best=00000000000000000002a3cd84623d7fcbd0331db980e16c28e92d642275590b height=837570 version=0x20000000 log2_work=94.837560 tx=983795755 date='2024-04-03T17:10:30Z' progress=0.998964 cache=232.6MiB(1587750txo)
+2024-04-06T22:19:44Z UpdateTip: new best=00000000000000000000fafc9d42f858058f4f2c9f06c6570565e3641c3ebf59 height=837571 version=0x2d7da000 log2_work=94.837574 tx=983799676 date='2024-04-03T17:15:58Z' progress=0.998966 cache=234.1MiB(1597863txo)
+2024-04-06T22:19:53Z UpdateTip: new best=00000000000000000002f9ed05012ce3e42dca1a012aa2f9bc40e0f0eb74280b height=837572 version=0x35302000 log2_work=94.837589 tx=983803801 date='2024-04-03T17:36:57Z' progress=0.998970 cache=235.5MiB(1608630txo)
+2024-04-06T22:19:59Z UpdateTip: new best=00000000000000000001b4e9355a30933c38bdb9062f67358f0ae3b7cbaa30c4 height=837573 version=0x2edca000 log2_work=94.837603 tx=983807925 date='2024-04-03T17:37:07Z' progress=0.998970 cache=236.6MiB(1616843txo)
+2024-04-06T22:20:04Z UpdateTip: new best=0000000000000000000206f8df7d7dc67aabfa3c484075f4481d06fb85beab6b height=837574 version=0x3fff0000 log2_work=94.837618 tx=983811522 date='2024-04-03T17:57:09Z' progress=0.998975 cache=238.1MiB(1628382txo)
+2024-04-06T22:20:11Z UpdateTip: new best=000000000000000000028f0029a950920893a42f97505dee0473f6b8891a1c43 height=837575 version=0x22228000 log2_work=94.837632 tx=983814564 date='2024-04-03T18:20:27Z' progress=0.998980 cache=239.5MiB(1639342txo)
+2024-04-06T22:20:12Z Synchronizing blockheaders, height: 838039 (~100.00%)
+2024-04-06T22:20:22Z UpdateTip: new best=00000000000000000002ff3fc9dfddeb9e7e045b0b0e7fc0903a35460c1da295 height=837576 version=0x22f76000 log2_work=94.837647 tx=983818135 date='2024-04-03T18:30:30Z' progress=0.998982 cache=240.5MiB(1647177txo)
+2024-04-06T22:20:33Z UpdateTip: new best=00000000000000000001fdf99e1a0c9bcf501ab61f81ee2354b26795a88dbe43 height=837577 version=0x27f4a000 log2_work=94.837662 tx=983821785 date='2024-04-03T18:31:01Z' progress=0.998982 cache=241.6MiB(1654906txo)
+2024-04-06T22:20:41Z UpdateTip: new best=00000000000000000002a29d0534a607bbffda1ad050058dd4c96aabd8b9f896 height=837578 version=0x31956000 log2_work=94.837676 tx=983824782 date='2024-04-03T18:41:44Z' progress=0.998984 cache=242.7MiB(1663921txo)
+2024-04-06T22:20:47Z UpdateTip: new best=0000000000000000000212074172c10ad5e45624ab42f2567ac381e01a0bc585 height=837579 version=0x2d85c000 log2_work=94.837691 tx=983826650 date='2024-04-03T18:48:22Z' progress=0.998986 cache=243.3MiB(1668402txo)
+2024-04-06T22:20:53Z UpdateTip: new best=00000000000000000000f6414eda30fff79c431bec0e1ef135747f189fb2c3ce height=837580 version=0x27f26000 log2_work=94.837705 tx=983829867 date='2024-04-03T19:20:46Z' progress=0.998993 cache=244.5MiB(1678363txo)
+2024-04-06T22:21:01Z UpdateTip: new best=000000000000000000022237d2fc486f8842339dd62abb85bee130019b938d42 height=837581 version=0x20724000 log2_work=94.837720 tx=983832395 date='2024-04-03T19:24:35Z' progress=0.998994 cache=245.5MiB(1686243txo)
+2024-04-06T22:21:10Z UpdateTip: new best=00000000000000000002a0f8fffb94bf8e48816190cf99bfa1f7c97b8b690eaa height=837582 version=0x2e80e000 log2_work=94.837734 tx=983836333 date='2024-04-03T19:31:14Z' progress=0.998995 cache=246.6MiB(1694378txo)
+2024-04-06T22:21:19Z UpdateTip: new best=00000000000000000002940a1691b138b690f23a86d8f32decdca46dd62e76c1 height=837583 version=0x318bc000 log2_work=94.837749 tx=983839720 date='2024-04-03T19:38:08Z' progress=0.998997 cache=247.8MiB(1703399txo)
+2024-04-06T22:21:26Z UpdateTip: new best=0000000000000000000341ac106f810b0e17b21af48d59e1af241ab8e99f3d9e height=837584 version=0x20800000 log2_work=94.837763 tx=983843355 date='2024-04-03T19:57:18Z' progress=0.999001 cache=248.9MiB(1711909txo)
+2024-04-06T22:21:36Z UpdateTip: new best=00000000000000000002e4693432daf71b119fa0f5b93ee5f813267d16f73abc height=837585 version=0x25ce6000 log2_work=94.837778 tx=983846475 date='2024-04-03T20:07:37Z' progress=0.999004 cache=249.7MiB(1718408txo)
+2024-04-06T22:21:42Z UpdateTip: new best=00000000000000000000512222e97531854a76eb7ad9ba9625e07fd5bb070b35 height=837586 version=0x20008000 log2_work=94.837792 tx=983849717 date='2024-04-03T20:17:56Z' progress=0.999006 cache=250.7MiB(1726428txo)
+2024-04-06T22:21:49Z UpdateTip: new best=000000000000000000021b17ad112398d7e46dfb9b8e329ad286e1cad9793dc1 height=837587 version=0x25ed8000 log2_work=94.837807 tx=983853189 date='2024-04-03T20:35:54Z' progress=0.999010 cache=251.8MiB(1735291txo)
+2024-04-06T22:22:03Z UpdateTip: new best=000000000000000000004fbaf6ec941dba684594857e6afaea2203b98e5d935c height=837588 version=0x33072000 log2_work=94.837822 tx=983855584 date='2024-04-03T20:38:12Z' progress=0.999010 cache=252.6MiB(1741439txo)
+2024-04-06T22:22:11Z UpdateTip: new best=00000000000000000001b8527d60ef7b86f096fd4306efc84fef727e7313c8da height=837589 version=0x2001c000 log2_work=94.837836 tx=983858567 date='2024-04-03T20:40:47Z' progress=0.999011 cache=253.4MiB(1747271txo)
+2024-04-06T22:22:17Z UpdateTip: new best=000000000000000000035736a3ee47f7eb743b2d13def8977c239d22badca0fa height=837590 version=0x2000e000 log2_work=94.837851 tx=983862099 date='2024-04-03T21:05:40Z' progress=0.999016 cache=254.6MiB(1757087txo)
+2024-04-06T22:22:24Z UpdateTip: new best=00000000000000000002720979e0ff79894a46569e5bc23fbf2a564dbf1be6ca height=837591 version=0x2c5a6000 log2_work=94.837865 tx=983864956 date='2024-04-03T21:21:27Z' progress=0.999020 cache=255.6MiB(1764888txo)
+2024-04-06T22:22:30Z UpdateTip: new best=000000000000000000030818f9e2566b01f8595f50cf079bd956d1e8d0a5ffc1 height=837592 version=0x32ffc000 log2_work=94.837880 tx=983867611 date='2024-04-03T21:28:17Z' progress=0.999021 cache=256.2MiB(1769766txo)
+2024-04-06T22:22:30Z UpdateTip: new best=000000000000000000016778f9dc7aca7bdb099f4bea90084ecfd1baecff82ec height=837593 version=0x20600000 log2_work=94.837894 tx=983867650 date='2024-04-03T21:47:12Z' progress=0.999026 cache=256.2MiB(1769811txo)
+2024-04-06T22:22:36Z UpdateTip: new best=00000000000000000001da20b538358f0e208b2de6138631bf9e151f802d7917 height=837594 version=0x32f70000 log2_work=94.837909 tx=983870746 date='2024-04-03T22:16:04Z' progress=0.999032 cache=257.8MiB(1782257txo)
+2024-04-06T22:33:02Z New outbound peer connected: version: 70016, blocks=838040, peer=75 (outbound-full-relay)
+2024-04-06T22:33:26Z Synchronizing blockheaders, height: 838040 (~100.00%)
+2024-04-06T22:33:34Z UpdateTip: new best=000000000000000000027401bcfa761539747c871a20770c74d37534e26896d0 height=837595 version=0x34000000 log2_work=94.837923 tx=983874058 date='2024-04-03T22:26:43Z' progress=0.999032 cache=272.0MiB(1872747txo)
+2024-04-06T22:33:44Z UpdateTip: new best=000000000000000000026ec6fbab59394e9cdfd09ceed8191322597a7746b356 height=837596 version=0x3e000000 log2_work=94.837938 tx=983876601 date='2024-04-03T22:27:14Z' progress=0.999032 cache=273.1MiB(1880672txo)
+2024-04-06T22:33:54Z UpdateTip: new best=00000000000000000000d2535fe3d7f42dbe9261e8304d87be4dcf0b2485218c height=837597 version=0x3fff0000 log2_work=94.837953 tx=983879824 date='2024-04-03T22:49:27Z' progress=0.999037 cache=274.3MiB(1890590txo)
+2024-04-06T22:34:03Z UpdateTip: new best=000000000000000000020bfebaa1e543a56009ba0e18c023200e6268e624e06b height=837598 version=0x20176000 log2_work=94.837967 tx=983882653 date='2024-04-03T22:54:04Z' progress=0.999038 cache=275.1MiB(1896922txo)
+2024-04-06T22:34:09Z UpdateTip: new best=000000000000000000002872721cc100a8ad9e819d8ef9f8498c845cd5284c44 height=837599 version=0x36000000 log2_work=94.837982 tx=983886354 date='2024-04-03T23:01:07Z' progress=0.999040 cache=276.5MiB(1906495txo)
+2024-04-06T22:34:17Z UpdateTip: new best=0000000000000000000317c6fa9bb940a3b591170500bbbdfff570cd49d747f2 height=837600 version=0x20000000 log2_work=94.837996 tx=983888794 date='2024-04-03T23:07:49Z' progress=0.999041 cache=277.3MiB(1912707txo)
+2024-04-06T22:34:25Z UpdateTip: new best=0000000000000000000185d22f77e685b2e53636acecbfe96a371b728f1313ff height=837601 version=0x20000000 log2_work=94.838011 tx=983891723 date='2024-04-03T23:24:50Z' progress=0.999045 cache=278.5MiB(1922054txo)
+2024-04-06T22:34:33Z UpdateTip: new best=00000000000000000002e1f1d01f3d37f651e1dc9f229af9e056f1d069fab36c height=837602 version=0x20800004 log2_work=94.838025 tx=983894105 date='2024-04-03T23:34:49Z' progress=0.999047 cache=279.8MiB(1931881txo)
+2024-04-06T22:34:39Z UpdateTip: new best=00000000000000000002c6f0eae6aaf8340ac6acabef504674dbd8cde47ddd3d height=837603 version=0x21f32000 log2_work=94.838040 tx=983896702 date='2024-04-03T23:48:51Z' progress=0.999050 cache=280.9MiB(1940407txo)
+2024-04-06T22:34:45Z UpdateTip: new best=00000000000000000002bf0b0d0df8710e5b5948a56cd2fc17831891d4c45269 height=837604 version=0x2e12a000 log2_work=94.838054 tx=983897220 date='2024-04-03T23:50:34Z' progress=0.999050 cache=280.7MiB(1938837txo)
+2024-04-06T22:34:50Z UpdateTip: new best=000000000000000000011e3869a7e67c1ac797a3ea5e3d11be8919bee3301d7a height=837605 version=0x26582004 log2_work=94.838069 tx=983899636 date='2024-04-04T00:09:50Z' progress=0.999055 cache=281.3MiB(1943232txo)
+2024-04-06T22:34:52Z UpdateTip: new best=00000000000000000001324cc6550a32efab08e986269d227cb387a8ceb30258 height=837606 version=0x34000000 log2_work=94.838083 tx=983900494 date='2024-04-04T00:12:11Z' progress=0.999055 cache=281.1MiB(1941409txo)
+2024-04-06T22:34:56Z UpdateTip: new best=000000000000000000020e4e1dd457339f06eac842a8bbc1ae0f6cd87eff0072 height=837607 version=0x241ea000 log2_work=94.838098 tx=983902596 date='2024-04-04T00:16:17Z' progress=0.999056 cache=281.2MiB(1941719txo)
+2024-04-06T22:35:03Z UpdateTip: new best=0000000000000000000270907b83edd471de963a809d0e76b1c9f28e5e8eb353 height=837608 version=0x24c6a000 log2_work=94.838113 tx=983905249 date='2024-04-04T00:30:22Z' progress=0.999059 cache=282.2MiB(1949377txo)
+2024-04-06T22:35:09Z UpdateTip: new best=00000000000000000000fd1abb402fcf552d2199624269929c1a6f86390615ae height=837609 version=0x20000000 log2_work=94.838127 tx=983908327 date='2024-04-04T01:19:42Z' progress=0.999070 cache=283.6MiB(1961155txo)
+2024-04-06T22:35:16Z UpdateTip: new best=000000000000000000029db9b6578a4414398eec401d3c67fbc2b880d38ec753 height=837610 version=0x261f0000 log2_work=94.838142 tx=983911098 date='2024-04-04T01:26:48Z' progress=0.999072 cache=284.8MiB(1969196txo)
+2024-04-06T22:35:22Z UpdateTip: new best=0000000000000000000053cb6ad73f0e8ea1b629a3bfd0c7e929526961198409 height=837611 version=0x20006000 log2_work=94.838156 tx=983913294 date='2024-04-04T01:34:30Z' progress=0.999074 cache=285.8MiB(1977092txo)
+2024-04-06T22:35:28Z UpdateTip: new best=00000000000000000000c267ca4da5cbf29c4768e0b1547e7326e968cbb32a20 height=837612 version=0x37ffe000 log2_work=94.838171 tx=983916337 date='2024-04-04T01:56:36Z' progress=0.999078 cache=287.0MiB(1985986txo)
+2024-04-06T22:35:31Z UpdateTip: new best=0000000000000000000267da91f7d5b7f76c2789cbc178391ffcb8f1e1145280 height=837613 version=0x26ef6000 log2_work=94.838185 tx=983918265 date='2024-04-04T02:05:04Z' progress=0.999080 cache=287.6MiB(1990313txo)
+2024-04-06T22:35:34Z UpdateTip: new best=00000000000000000001a77f024573080e0bc740a7e849cb88b203a094cd85fe height=837614 version=0x200bc000 log2_work=94.838200 tx=983919816 date='2024-04-04T02:07:38Z' progress=0.999081 cache=287.4MiB(1988617txo)
+2024-04-06T22:35:40Z UpdateTip: new best=000000000000000000032d67a62b8a207a9dcb56284b62c47c184db9703d8908 height=837615 version=0x32682000 log2_work=94.838214 tx=983922246 date='2024-04-04T02:08:41Z' progress=0.999081 cache=287.6MiB(1989831txo)
+2024-04-06T22:35:47Z UpdateTip: new best=00000000000000000001711cdacdd5097fe5fcd96ad1b142800023149238012f height=837616 version=0x2bfec000 log2_work=94.838229 tx=983924222 date='2024-04-04T02:18:58Z' progress=0.999083 cache=288.7MiB(1997780txo)
+2024-04-06T22:35:57Z UpdateTip: new best=00000000000000000001541c10ef688b8bf0cc58d99e51b5155223401ea7fa73 height=837617 version=0x20912000 log2_work=94.838243 tx=983925389 date='2024-04-04T02:21:28Z' progress=0.999084 cache=288.8MiB(1998465txo)
+2024-04-06T22:36:09Z UpdateTip: new best=00000000000000000003041a6c629ee0fcad1433394cc9cfaeaffd307f28fbee height=837618 version=0x2707c000 log2_work=94.838258 tx=983926203 date='2024-04-04T02:20:54Z' progress=0.999084 cache=289.5MiB(2003789txo)
+2024-04-06T22:36:17Z UpdateTip: new best=000000000000000000027c6cbaddee0a9ffc4592f2b9d1008449ed744ea506e5 height=837619 version=0x2201a000 log2_work=94.838273 tx=983928187 date='2024-04-04T02:28:33Z' progress=0.999085 cache=290.5MiB(2010971txo)
+2024-04-06T22:36:21Z UpdateTip: new best=00000000000000000002162fc85263f49f7e278c9a5fe8328450d9695c4d605b height=837620 version=0x253c6000 log2_work=94.838287 tx=983930221 date='2024-04-04T02:38:17Z' progress=0.999088 cache=291.1MiB(2015150txo)
+2024-04-06T22:36:23Z UpdateTip: new best=00000000000000000002d3bad2dc4ecb8cba023cb9f22c30fcd3f93640213219 height=837621 version=0x20600000 log2_work=94.838302 tx=983931857 date='2024-04-04T02:49:05Z' progress=0.999090 cache=291.7MiB(2018670txo)
+2024-04-06T22:36:30Z UpdateTip: new best=000000000000000000009b68a5a9dcc9e3f01a01480f33948300fa05f995889e height=837622 version=0x3e000000 log2_work=94.838316 tx=983934683 date='2024-04-04T03:09:39Z' progress=0.999095 cache=292.9MiB(2027710txo)
+2024-04-06T22:36:35Z UpdateTip: new best=00000000000000000001391d5cf33789ac253b8665f81da500c215e648f2140e height=837623 version=0x20a00000 log2_work=94.838331 tx=983937400 date='2024-04-04T03:27:03Z' progress=0.999098 cache=293.8MiB(2034730txo)
+2024-04-06T22:36:39Z UpdateTip: new best=00000000000000000000baf75045a74f6f8ea798ecbb1dbd7598534d080c540a height=837624 version=0x275ec000 log2_work=94.838345 tx=983939774 date='2024-04-04T03:41:16Z' progress=0.999102 cache=294.6MiB(2040587txo)
+2024-04-06T22:36:42Z UpdateTip: new best=000000000000000000035124e9ec5758519516b0ede618bbb0dc1853b1f57af8 height=837625 version=0x29b98000 log2_work=94.838360 tx=983941843 date='2024-04-04T03:43:13Z' progress=0.999102 cache=294.7MiB(2040556txo)
+2024-04-06T22:36:46Z UpdateTip: new best=0000000000000000000326458140ed117a471d3e1ad2af980fc731e4fa860f90 height=837626 version=0x20e00000 log2_work=94.838374 tx=983944200 date='2024-04-04T03:55:04Z' progress=0.999105 cache=295.1MiB(2043847txo)
+2024-04-06T22:36:58Z UpdateTip: new best=0000000000000000000063fee0cb882d7eb9f45b172ff11b37f05c924b6ed399 height=837627 version=0x27d2e000 log2_work=94.838389 tx=983945059 date='2024-04-04T03:55:54Z' progress=0.999105 cache=295.2MiB(2044466txo)
+2024-04-06T22:37:14Z UpdateTip: new best=0000000000000000000316ccdf839bf00c9c1345507baf1527cc9c04c9bb8907 height=837628 version=0x2000c000 log2_work=94.838403 tx=983945380 date='2024-04-04T03:56:28Z' progress=0.999105 cache=295.9MiB(2049246txo)
+2024-04-06T22:37:34Z UpdateTip: new best=00000000000000000001079f93c70d8e360e8fa02ae950ade933bc1e4effa19d height=837629 version=0x2acae000 log2_work=94.838418 tx=983946969 date='2024-04-04T03:58:22Z' progress=0.999105 cache=296.9MiB(2058068txo)
+2024-04-06T22:37:38Z UpdateTip: new best=000000000000000000010fb8965106640b5384bf1d34b0b85fba89db83c9034e height=837630 version=0x33b5e000 log2_work=94.838433 tx=983948870 date='2024-04-04T04:16:51Z' progress=0.999109 cache=298.7MiB(2072301txo)
+2024-04-06T22:37:44Z UpdateTip: new best=00000000000000000001b9905292e79e4f546eb43e2c032b6657c53d05478ab3 height=837631 version=0x38000000 log2_work=94.838447 tx=983950531 date='2024-04-04T04:19:08Z' progress=0.999110 cache=299.5MiB(2078416txo)
+2024-04-06T22:38:01Z UpdateTip: new best=0000000000000000000257501532dab64e4ad97f87acfd049a989441187085b5 height=837632 version=0x2b898000 log2_work=94.838462 tx=983952624 date='2024-04-04T04:22:55Z' progress=0.999111 cache=300.8MiB(2088366txo)
+2024-04-06T22:38:18Z UpdateTip: new best=00000000000000000003537b0230f6822e7ceea54b7ee23e7b524eb418aee9c2 height=837633 version=0x32b02000 log2_work=94.838476 tx=983954992 date='2024-04-04T04:28:02Z' progress=0.999112 cache=301.8MiB(2096954txo)
+2024-04-06T22:38:23Z UpdateTip: new best=00000000000000000001151f5a38f14f29118ed9be9e0fd7c0c262502b5aa2b8 height=837634 version=0x20006000 log2_work=94.838491 tx=983957202 date='2024-04-04T04:39:12Z' progress=0.999114 cache=302.4MiB(2101424txo)
+2024-04-06T22:38:34Z UpdateTip: new best=000000000000000000009a122ab0246945fe28fecd482b0cafbd7f916c42b34b height=837635 version=0x224c2000 log2_work=94.838505 tx=983959363 date='2024-04-04T04:49:43Z' progress=0.999117 cache=303.3MiB(2108450txo)
+2024-04-06T22:39:00Z UpdateTip: new best=000000000000000000004e45f94e54306b92da766e97e697647b74f664ce313a height=837636 version=0x20400000 log2_work=94.838520 tx=983959766 date='2024-04-04T04:51:39Z' progress=0.999117 cache=304.4MiB(2117428txo)
+2024-04-06T22:39:14Z UpdateTip: new best=0000000000000000000043d45654816dc58503dfe1ff7fccda674414cfb4d7f4 height=837637 version=0x2cc68000 log2_work=94.838534 tx=983960341 date='2024-04-04T04:54:33Z' progress=0.999117 cache=306.3MiB(2129195txo)
+2024-04-06T22:39:16Z UpdateTip: new best=0000000000000000000037c2c2f0293c26fb45d0e90e3e2f45a95e46052c806e height=837638 version=0x27f14000 log2_work=94.838549 tx=983962309 date='2024-04-04T04:57:47Z' progress=0.999118 cache=306.7MiB(2132310txo)
+2024-04-06T22:39:24Z UpdateTip: new best=0000000000000000000171abfac85fb4d76822aa7e0f5e0c37894ada1ad34750 height=837639 version=0x2275e000 log2_work=94.838563 tx=983964987 date='2024-04-04T05:05:20Z' progress=0.999120 cache=307.6MiB(2138624txo)
+2024-04-06T22:39:33Z UpdateTip: new best=00000000000000000001d83b4f5d8bf968ffc261f2a9a90d88a264dfe2ab8d49 height=837640 version=0x2000e000 log2_work=94.838578 tx=983967989 date='2024-04-04T05:18:39Z' progress=0.999123 cache=308.6MiB(2146471txo)
+2024-04-06T22:40:01Z UpdateTip: new best=00000000000000000000e79b89c15c1d793b39bd39f1319e4804982bce3ce974 height=837641 version=0x2000e000 log2_work=94.838593 tx=983968214 date='2024-04-04T05:20:05Z' progress=0.999123 cache=309.9MiB(2156751txo)
+2024-04-06T22:40:19Z UpdateTip: new best=0000000000000000000200c2c98f80cac8a933aa1a65ad12d113ef4aa3a74e3c height=837642 version=0x26be2000 log2_work=94.838607 tx=983969514 date='2024-04-04T05:25:55Z' progress=0.999124 cache=311.1MiB(2166012txo)
+2024-04-06T22:40:29Z UpdateTip: new best=0000000000000000000067d7d73c213c0f87740f24366c1f2623acc372f2827c height=837643 version=0x20008000 log2_work=94.838622 tx=983972126 date='2024-04-04T05:39:06Z' progress=0.999127 cache=312.0MiB(2173338txo)
+2024-04-06T22:41:12Z UpdateTip: new best=00000000000000000002fab9ec2d60d847801b75450e8a97e30abdd4dc876782 height=837644 version=0x20000000 log2_work=94.838636 tx=983972670 date='2024-04-04T05:44:07Z' progress=0.999128 cache=313.5MiB(2185329txo)
+2024-04-06T22:41:34Z UpdateTip: new best=0000000000000000000029bf881c1574b1762f884b4db843c5b59b63faf9103f height=837645 version=0x32f1a000 log2_work=94.838651 tx=983975556 date='2024-04-04T05:55:00Z' progress=0.999130 cache=314.9MiB(2194951txo)
+2024-04-06T22:41:44Z UpdateTip: new best=0000000000000000000100fc16a52773aa838f84913048535f09b2cd610d9848 height=837646 version=0x30faa000 log2_work=94.838665 tx=983978811 date='2024-04-04T06:21:16Z' progress=0.999136 cache=315.8MiB(2201785txo)
+2024-04-06T22:41:52Z UpdateTip: new best=000000000000000000030103b8239d4eebe9c4a7e669de10e109fbb06d50cd2b height=837647 version=0x3fffe000 log2_work=94.838680 tx=983982268 date='2024-04-04T06:23:55Z' progress=0.999137 cache=316.3MiB(2205408txo)
+2024-04-06T22:42:02Z UpdateTip: new best=00000000000000000000aba8511d7687e33d0d90be7e58d94155f4e7cf0347bf height=837648 version=0x262b2000 log2_work=94.838694 tx=983985473 date='2024-04-04T06:49:30Z' progress=0.999143 cache=317.1MiB(2211843txo)
+2024-04-06T22:42:09Z UpdateTip: new best=00000000000000000002bf0695c710dc89246c1c87baac7bb9747d2fe0b1de9f height=837649 version=0x380f0000 log2_work=94.838709 tx=983987782 date='2024-04-04T06:57:23Z' progress=0.999144 cache=317.8MiB(2216396txo)
+2024-04-06T22:42:21Z UpdateTip: new best=00000000000000000002569cbe190c8ced5cd0199f40a7d03f0de46a53fed8aa height=837650 version=0x2d926000 log2_work=94.838723 tx=983990845 date='2024-04-04T07:08:38Z' progress=0.999147 cache=318.4MiB(2220611txo)
+2024-04-06T22:43:03Z UpdateTip: new best=00000000000000000001b5a0fa63aa989f832b7b6640cf585044f5383444cbe2 height=837651 version=0x20c68000 log2_work=94.838738 tx=983991870 date='2024-04-04T07:09:26Z' progress=0.999147 cache=319.5MiB(2229142txo)
+2024-04-06T22:43:25Z UpdateTip: new best=000000000000000000015fae5f4eebaf332e84df7949677aaf0afe8ebed9624c height=837652 version=0x2cb0c000 log2_work=94.838752 tx=983993374 date='2024-04-04T07:12:22Z' progress=0.999147 cache=320.7MiB(2237750txo)
+2024-04-06T22:43:33Z UpdateTip: new best=00000000000000000000be2b95239d101bc10b6fa502f110c8694329c3345ec7 height=837653 version=0x20000000 log2_work=94.838767 tx=983996891 date='2024-04-04T07:23:50Z' progress=0.999150 cache=321.4MiB(2243125txo)
+2024-04-06T22:43:56Z UpdateTip: new best=00000000000000000001ad5f6e86515a2cd5e3af72dc82e0c309602294abeeba height=837654 version=0x22760000 log2_work=94.838782 tx=983999457 date='2024-04-04T07:27:29Z' progress=0.999151 cache=322.2MiB(2248924txo)
+2024-04-06T22:44:11Z UpdateTip: new best=000000000000000000018f4da18445c26e822d2fad01ec60384292549fe5db67 height=837655 version=0x2a2e6000 log2_work=94.838796 tx=984001578 date='2024-04-04T07:38:50Z' progress=0.999153 cache=323.2MiB(2257022txo)
+2024-04-06T22:44:28Z UpdateTip: new best=000000000000000000021cecb4001ebefbf8e06bdf0c14b3de3f4c235ae167dd height=837656 version=0x2023c000 log2_work=94.838811 tx=984003476 date='2024-04-04T07:45:10Z' progress=0.999154 cache=324.0MiB(2262816txo)
+2024-04-06T22:44:41Z UpdateTip: new best=0000000000000000000025e050611593946fdc4e2e32dd7eadbbf2bc695474eb height=837657 version=0x20800000 log2_work=94.838825 tx=984006332 date='2024-04-04T08:03:28Z' progress=0.999159 cache=324.9MiB(2269989txo)
+2024-04-06T22:45:14Z UpdateTip: new best=00000000000000000000d146dc6759cf991a2d9330c61544a9991afccea4f283 height=837658 version=0x2157e000 log2_work=94.838840 tx=984007652 date='2024-04-04T08:07:12Z' progress=0.999159 cache=325.9MiB(2277869txo)
+2024-04-06T22:45:24Z UpdateTip: new best=0000000000000000000041178ec73ae44525965ce8c0b36ca4de3e39214a3b40 height=837659 version=0x20002000 log2_work=94.838854 tx=984010282 date='2024-04-04T08:21:27Z' progress=0.999162 cache=326.8MiB(2284296txo)
+2024-04-06T22:45:33Z UpdateTip: new best=00000000000000000002f6504fde25f4e858eebc3222487d0e627e3a5ea232d7 height=837660 version=0x2887c000 log2_work=94.838869 tx=984013665 date='2024-04-04T08:47:27Z' progress=0.999168 cache=327.8MiB(2292073txo)
+2024-04-06T22:45:42Z UpdateTip: new best=00000000000000000000e84fb3eb5f14c1b67f2d6ab3dfaa8c49c5087e222daa height=837661 version=0x2928a000 log2_work=94.838883 tx=984016734 date='2024-04-04T09:04:49Z' progress=0.999172 cache=328.8MiB(2300028txo)
+2024-04-06T22:45:50Z UpdateTip: new best=000000000000000000004f6f456858b7b8a9a77a5b4ade4399ae92047a7c4b11 height=837662 version=0x20000000 log2_work=94.838898 tx=984018424 date='2024-04-04T09:06:57Z' progress=0.999172 cache=329.2MiB(2302385txo)
+2024-04-06T22:46:06Z UpdateTip: new best=00000000000000000000148f11407a242446703e3ff405d23c0c8ff7bd699fd4 height=837663 version=0x2e23a000 log2_work=94.838912 tx=984020541 date='2024-04-04T09:10:46Z' progress=0.999173 cache=329.9MiB(2307929txo)
+2024-04-06T22:46:13Z UpdateTip: new best=0000000000000000000114caa53f2d2b1c2a805110898a219dc4184901e81f81 height=837664 version=0x20e00000 log2_work=94.838927 tx=984023806 date='2024-04-04T09:19:40Z' progress=0.999175 cache=330.8MiB(2314081txo)
+2024-04-06T22:46:43Z UpdateTip: new best=000000000000000000004331ff92365bcea120f1e8821a86adc12ae7455ce410 height=837665 version=0x23092000 log2_work=94.838941 tx=984025825 date='2024-04-04T09:24:37Z' progress=0.999176 cache=331.6MiB(2320580txo)
+2024-04-06T22:46:56Z UpdateTip: new best=00000000000000000000ec008e43e9fcf473ad7d05a0b86323280302669f5683 height=837666 version=0x24000000 log2_work=94.838956 tx=984027809 date='2024-04-04T09:30:53Z' progress=0.999178 cache=332.0MiB(2323226txo)
+2024-04-06T22:47:13Z UpdateTip: new best=0000000000000000000065a68fbb3295c8793785a29143ffa7bd92e6073d91d8 height=837667 version=0x24b6c000 log2_work=94.838971 tx=984031341 date='2024-04-04T09:54:12Z' progress=0.999183 cache=333.1MiB(2331249txo)
+2024-04-06T22:47:30Z UpdateTip: new best=0000000000000000000000844a686662a6930850786c9fe96b3f7bb13b1abda3 height=837668 version=0x2f7c2000 log2_work=94.838985 tx=984034936 date='2024-04-04T10:18:14Z' progress=0.999188 cache=334.0MiB(2338660txo)
+2024-04-06T22:47:46Z UpdateTip: new best=00000000000000000001d451a6902f6fac41f02d080fb7e740ce33c1c11d19ea height=837669 version=0x2001e004 log2_work=94.839000 tx=984036925 date='2024-04-04T10:25:21Z' progress=0.999190 cache=334.6MiB(2342726txo)
+2024-04-06T22:48:03Z UpdateTip: new best=000000000000000000022b93fef0ca8477c6c4d0d091e102980de1af5a0a6d2c height=837670 version=0x20800000 log2_work=94.839014 tx=984039543 date='2024-04-04T10:36:06Z' progress=0.999192 cache=335.7MiB(2350748txo)
+2024-04-06T22:48:15Z UpdateTip: new best=000000000000000000001bcad98fd9171b2dc5d83c4b7e1b42fab8aab27880b0 height=837671 version=0x26898000 log2_work=94.839029 tx=984041804 date='2024-04-04T10:47:05Z' progress=0.999194 cache=336.1MiB(2353924txo)
+2024-04-06T22:48:30Z UpdateTip: new best=000000000000000000032ab09a85d39d4934323419477fdd7dde9eb326cc02b6 height=837672 version=0x21fae000 log2_work=94.839043 tx=984044907 date='2024-04-04T11:05:03Z' progress=0.999198 cache=337.2MiB(2362043txo)
+2024-04-06T22:48:49Z UpdateTip: new best=000000000000000000025112f713a87d3aaaeb6f835bddc550551c7ecfbb86f6 height=837673 version=0x2fffe000 log2_work=94.839058 tx=984048060 date='2024-04-04T11:22:37Z' progress=0.999202 cache=338.2MiB(2369528txo)
+2024-04-06T22:49:10Z UpdateTip: new best=000000000000000000009eb21b9ffd384261d507d726ce57065f1a011f1b317b height=837674 version=0x21c9a000 log2_work=94.839072 tx=984050709 date='2024-04-04T11:38:21Z' progress=0.999206 cache=339.1MiB(2376471txo)
+2024-04-06T22:49:23Z Synchronizing blockheaders, height: 838041 (~100.00%)
+2024-04-06T22:49:23Z New outbound peer connected: version: 70016, blocks=838041, peer=79 (block-relay-only)
+2024-04-06T22:49:50Z UpdateTip: new best=000000000000000000002b7a4f4ebee96d074ed5d2673013f607b4010632a85c height=837675 version=0x2bd3c000 log2_work=94.839087 tx=984053123 date='2024-04-04T11:43:52Z' progress=0.999207 cache=340.2MiB(2385056txo)
+2024-04-06T22:50:10Z UpdateTip: new best=000000000000000000020bdcd93c44139893811bfc46edd758aaf6862b9e5507 height=837676 version=0x20002000 log2_work=94.839101 tx=984055750 date='2024-04-04T12:12:23Z' progress=0.999213 cache=341.2MiB(2392935txo)
+2024-04-06T22:51:03Z UpdateTip: new best=000000000000000000003811d96ec081567d1b4e289a7a7631df32749a5c5f1d height=837677 version=0x2e8a0000 log2_work=94.839116 tx=984058321 date='2024-04-04T12:29:37Z' progress=0.999217 cache=342.2MiB(2400985txo)
+2024-04-06T22:51:52Z UpdateTip: new best=0000000000000000000096e49a0806d1ee06cacea891665e36e4ecb0c2395f12 height=837678 version=0x297ae000 log2_work=94.839130 tx=984060948 date='2024-04-04T12:47:10Z' progress=0.999220 cache=343.2MiB(2408823txo)
+2024-04-06T22:52:59Z UpdateTip: new best=000000000000000000032d39807b4558fb94baaeb7c51d276505d813b05f431f height=837679 version=0x20000000 log2_work=94.839145 tx=984062589 date='2024-04-04T12:51:51Z' progress=0.999221 cache=344.2MiB(2416564txo)
+2024-04-06T22:53:27Z UpdateTip: new best=000000000000000000012e8e1ad835b15c22484b7767a85fa04f751d5c6ee894 height=837680 version=0x30e14000 log2_work=94.839160 tx=984065298 date='2024-04-04T13:02:49Z' progress=0.999224 cache=345.0MiB(2422892txo)
+2024-04-06T22:53:56Z UpdateTip: new best=00000000000000000000c3d64760c49d44d679ef333cbe1473d7aefed84d9442 height=837681 version=0x37ffe000 log2_work=94.839174 tx=984067533 date='2024-04-04T13:08:12Z' progress=0.999225 cache=346.5MiB(2434802txo)
+2024-04-06T22:54:19Z UpdateTip: new best=0000000000000000000350d94e5e339a49172fc13b85133047c52650eaa33f45 height=837682 version=0x32e12000 log2_work=94.839189 tx=984070613 date='2024-04-04T13:36:22Z' progress=0.999231 cache=347.4MiB(2441616txo)
+2024-04-06T22:54:42Z UpdateTip: new best=000000000000000000035f8062979690c6a8cf2d679f8cb2ec0017bd704b7179 height=837683 version=0x3fff0000 log2_work=94.839203 tx=984073996 date='2024-04-04T13:37:58Z' progress=0.999231 cache=348.3MiB(2448134txo)
+2024-04-06T22:55:04Z UpdateTip: new best=00000000000000000002c00d3c45b97acdcef9cd03b412dbf495460c096641f9 height=837684 version=0x20bca000 log2_work=94.839218 tx=984075263 date='2024-04-04T13:39:11Z' progress=0.999231 cache=348.4MiB(2448753txo)
+2024-04-06T22:55:33Z UpdateTip: new best=000000000000000000013cc025e2632d659dda7a35bffd15559b1d17527f24ff height=837685 version=0x20000000 log2_work=94.839232 tx=984078466 date='2024-04-04T13:58:17Z' progress=0.999235 cache=349.3MiB(2456175txo)
+2024-04-06T22:56:01Z UpdateTip: new best=000000000000000000019e215847bbcd943fd0aaae1f0f9316f27800fc3b13d4 height=837686 version=0x2000e000 log2_work=94.839247 tx=984081858 date='2024-04-04T14:25:03Z' progress=0.999241 cache=350.5MiB(2465349txo)
+2024-04-06T22:56:26Z UpdateTip: new best=0000000000000000000166c35c97eba6203b05766a08f432f23c484dd0ee20ac height=837687 version=0x20000000 log2_work=94.839261 tx=984085188 date='2024-04-04T14:38:08Z' progress=0.999244 cache=351.5MiB(2473336txo)
+2024-04-06T22:56:48Z UpdateTip: new best=00000000000000000000f43188863e1548c63ac13fbbdb2ebaff4edaa4c790a1 height=837688 version=0x20012000 log2_work=94.839276 tx=984087986 date='2024-04-04T14:47:23Z' progress=0.999246 cache=352.4MiB(2479769txo)
+2024-04-06T22:57:15Z UpdateTip: new best=000000000000000000030909c6c3623d4695f4f391d6ec59aeba37e6171cd25e height=837689 version=0x24ed8000 log2_work=94.839290 tx=984091402 date='2024-04-04T14:54:43Z' progress=0.999248 cache=353.4MiB(2487330txo)
+2024-04-06T22:57:46Z UpdateTip: new best=00000000000000000003280057f243089d6f9c4c0afb0c0795b7fd27d3e31298 height=837690 version=0x2be42000 log2_work=94.839305 tx=984095006 date='2024-04-04T15:35:49Z' progress=0.999257 cache=354.8MiB(2498984txo)
+2024-04-06T22:58:11Z UpdateTip: new best=000000000000000000002e18d2d8ae347fc24a455eeb14a8366d12c3a23c0f51 height=837691 version=0x29780000 log2_work=94.839319 tx=984098049 date='2024-04-04T15:39:29Z' progress=0.999258 cache=355.6MiB(2505118txo)
+2024-04-06T22:58:39Z UpdateTip: new best=00000000000000000002f7356b8b431d6d848bbc91a76ae32bf50d7e075f5a5c height=837692 version=0x2fffe000 log2_work=94.839334 tx=984100939 date='2024-04-04T16:23:20Z' progress=0.999267 cache=356.9MiB(2515519txo)
+2024-04-06T22:59:08Z UpdateTip: new best=000000000000000000018c28a85e3ab4c53a631e89506830b608df22f88fbf70 height=837693 version=0x23346000 log2_work=94.839349 tx=984104193 date='2024-04-04T16:27:23Z' progress=0.999268 cache=357.6MiB(2520663txo)
+2024-04-06T22:59:29Z UpdateTip: new best=000000000000000000035ee5c8a708c075f796c49d1917ec385dc3312657b9e5 height=837694 version=0x20400000 log2_work=94.839363 tx=984107262 date='2024-04-04T16:40:51Z' progress=0.999271 cache=358.6MiB(2529060txo)
+2024-04-06T22:59:55Z UpdateTip: new best=00000000000000000001c3c08a88ba40ff3ef89d78bfc2cdb451ccb60bdba02b height=837695 version=0x2c2c2000 log2_work=94.839378 tx=984109918 date='2024-04-04T16:47:31Z' progress=0.999272 cache=359.5MiB(2535759txo)
+2024-04-06T23:00:18Z UpdateTip: new best=00000000000000000001330f1cbff6f8616fbbb8f06e7a1769f45a0e8fc1e54c height=837696 version=0x20b7c000 log2_work=94.839392 tx=984112918 date='2024-04-04T16:59:48Z' progress=0.999275 cache=360.6MiB(2544284txo)
+2024-04-06T23:00:53Z UpdateTip: new best=00000000000000000000c1c4084971034df387cd6bcec637848f06ca9d914ca0 height=837697 version=0x33b2e000 log2_work=94.839407 tx=984115805 date='2024-04-04T17:01:09Z' progress=0.999275 cache=361.5MiB(2551391txo)
+2024-04-06T23:01:35Z UpdateTip: new best=00000000000000000001919bf3944e264f9c33876b1802959599663a6c5bfef5 height=837698 version=0x2e7a2000 log2_work=94.839421 tx=984118913 date='2024-04-04T17:07:18Z' progress=0.999276 cache=362.6MiB(2559990txo)
+2024-04-06T23:02:13Z UpdateTip: new best=00000000000000000000ff4e4b568911449eccf4fc49e0c84b28f3a4d03dba58 height=837699 version=0x30eb4000 log2_work=94.839436 tx=984121889 date='2024-04-04T17:11:57Z' progress=0.999277 cache=363.3MiB(2565419txo)
+2024-04-06T23:02:54Z UpdateTip: new best=000000000000000000022f5035ea420a743c4b835063ffd60375f3d7fae4a8a6 height=837700 version=0x20c00000 log2_work=94.839450 tx=984124694 date='2024-04-04T17:14:41Z' progress=0.999278 cache=364.3MiB(2572872txo)
+2024-04-06T23:03:19Z UpdateTip: new best=00000000000000000002dd26791af607d8c908c2ff5be7b424bb277b0d11b888 height=837701 version=0x2d6a0000 log2_work=94.839465 tx=984126302 date='2024-04-04T17:16:57Z' progress=0.999278 cache=364.8MiB(2577096txo)
+2024-04-06T23:03:38Z UpdateTip: new best=0000000000000000000151c98962543377b0bf202d54423ce4635abcd9d6b38a height=837702 version=0x23dc4000 log2_work=94.839479 tx=984129111 date='2024-04-04T17:24:11Z' progress=0.999280 cache=365.3MiB(2580678txo)
+2024-04-06T23:04:17Z UpdateTip: new best=000000000000000000024b2c76269503dfccc26fc08402452382c59787ad3868 height=837703 version=0x20194000 log2_work=94.839494 tx=984129722 date='2024-04-04T17:24:28Z' progress=0.999280 cache=365.7MiB(2583456txo)
+2024-04-06T23:05:23Z UpdateTip: new best=000000000000000000009ccc41f3381b04844da7b7d8501e87340adf5d8b0264 height=837704 version=0x2c100000 log2_work=94.839508 tx=984130660 date='2024-04-04T17:27:13Z' progress=0.999280 cache=366.6MiB(2590879txo)
+2024-04-06T23:06:02Z UpdateTip: new best=00000000000000000000a7cfc860d0488c8ad4a72b2de3ef1340a989a3fbd559 height=837705 version=0x30852000 log2_work=94.839523 tx=984133610 date='2024-04-04T17:41:54Z' progress=0.999283 cache=367.8MiB(2600146txo)
+2024-04-06T23:06:53Z UpdateTip: new best=0000000000000000000325e14bade02ee3028ef5f7b6007ee68467aade63a05a height=837706 version=0x2229c000 log2_work=94.839537 tx=984134780 date='2024-04-04T17:44:07Z' progress=0.999283 cache=368.5MiB(2605862txo)
+2024-04-06T23:07:26Z UpdateTip: new best=00000000000000000000a0a279639efafdaa194aef90289b607bad0533644d74 height=837707 version=0x29ac4000 log2_work=94.839552 tx=984137480 date='2024-04-04T17:57:38Z' progress=0.999286 cache=369.6MiB(2614114txo)
+2024-04-06T23:08:09Z UpdateTip: new best=000000000000000000019cd27178a410f9e061443f2bc1dc21ada2fbf3790933 height=837708 version=0x3316a000 log2_work=94.839567 tx=984140193 date='2024-04-04T18:21:05Z' progress=0.999291 cache=370.8MiB(2623802txo)
+2024-04-06T23:08:45Z UpdateTip: new best=00000000000000000001a4f6692f0c1d4f7ce5c9fca11c6f790de02facf73c50 height=837709 version=0x20102000 log2_work=94.839581 tx=984143601 date='2024-04-04T18:36:25Z' progress=0.999295 cache=371.9MiB(2632771txo)
+2024-04-06T23:09:11Z UpdateTip: new best=000000000000000000030d08796e0962238ed4a1ad52bf7d169fe61f58a26e61 height=837710 version=0x29716000 log2_work=94.839596 tx=984146211 date='2024-04-04T18:36:59Z' progress=0.999295 cache=372.6MiB(2637806txo)
+2024-04-06T23:09:41Z UpdateTip: new best=000000000000000000026baa5fc197405a14ac2437869e3fa8c9867eb24ba84c height=837711 version=0x23908000 log2_work=94.839610 tx=984147771 date='2024-04-04T18:42:11Z' progress=0.999296 cache=373.0MiB(2640998txo)
+2024-04-06T23:10:14Z UpdateTip: new best=00000000000000000000e96d86d893af5238ea86cff7e501b97e18616d2b6c8a height=837712 version=0x34000000 log2_work=94.839625 tx=984150107 date='2024-04-04T18:52:18Z' progress=0.999298 cache=373.7MiB(2646867txo)
+2024-04-06T23:10:53Z UpdateTip: new best=00000000000000000000836b76e47e682f234187c01413f0cf37e4d6b81e86dd height=837713 version=0x20006000 log2_work=94.839639 tx=984152916 date='2024-04-04T19:06:35Z' progress=0.999301 cache=374.6MiB(2653309txo)
+2024-04-06T23:11:15Z UpdateTip: new best=00000000000000000000357f07e0063e2665603b9c46af44e658fe7ad7ac2e90 height=837714 version=0x3e000000 log2_work=94.839654 tx=984156083 date='2024-04-04T19:20:46Z' progress=0.999304 cache=375.4MiB(2659862txo)
+2024-04-06T23:11:41Z UpdateTip: new best=000000000000000000011e544f955c115d7140f05d3416f5f3fc54371ef8ef3a height=837715 version=0x26e70000 log2_work=94.839668 tx=984158563 date='2024-04-04T19:31:43Z' progress=0.999306 cache=376.4MiB(2667881txo)

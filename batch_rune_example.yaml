@@ -1,0 +1,36 @@
+# example batch file
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: separate-outputs
+
+# rune to etch (optional)
+etching:
+  # rune name
+  rune: IWISHTHEREWASARUNE
+  # allow subdividing super-unit into `10^divisibility` sub-units
+  divisibility: 1
+  # premine
+  premine: 21
+  # total supply, must be equal to `premine + terms.cap * terms.amount`
+  supply: 10021
+  # currency symbol
+  symbol: $
+  # mint terms (optional)
+  terms:
+    # amount per mint
+    amount: 1
+    # maximum number of mints
+    cap: 10000
+    # mint start and end block height relative to etching height (optional)
+    offset:
+      end: 144
+
+# inscriptions to inscribe
+inscriptions:
+  # path to inscription content
+  - file: banana-svgrepo-com.svg
+
