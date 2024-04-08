@@ -9,8 +9,8 @@ parser.add_argument("--regtest", help="add -regtest at the end of the script", a
 parser.add_argument('args', nargs=argparse.REMAINDER)  # pass all the arguments after the options
 args = parser.parse_args()
 
-DATADIR="/mnt/e/bitcoin/.bitcoin"
-CONF="/mnt/e/bitcoin/.bitcoin/bitcoin.conf"
+DATADIR="/mnt/c/bitcoin/.bitcoin"
+CONF="/mnt/c/bitcoin/.bitcoin/bitcoin.conf"
 
 command = f"../bitcoin-25.0/bin/bitcoind -datadir={DATADIR} -conf={CONF}"
 if args.signet:

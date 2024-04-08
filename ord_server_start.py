@@ -4,10 +4,10 @@ import subprocess
 import argparse
 from utils import run_command_with_logging
 
-BITCOIN_DATA_DIR = "/mnt/e/bitcoin/.bitcoin"
-COOKIE_FILE = "/mnt/e/bitcoin/.bitcoin/.cookie"
-CONFIG_DIR = "/mnt/e/bitcoin/.bitcoin/bitcoin.conf"
-INDEX = "/mnt/e/bitcoin/index.redb"
+BITCOIN_DATA_DIR = "/mnt/c/bitcoin/.bitcoin"
+COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/.cookie"
+CONFIG_DIR = "/mnt/c/bitcoin/.bitcoin/bitcoin.conf"
+INDEX = "/mnt/c/bitcoin/index.redb"
 PORT = "2222"
 TEST_PORT = "8000"
 SERVER_URL = f"http://localhost:{PORT}"
@@ -29,43 +29,43 @@ parser.add_argument('args', nargs=argparse.REMAINDER)  # pass all the arguments 
 
 args = parser.parse_args()
 if args.signet:
-    COOKIE_FILE = "/mnt/e/bitcoin/.bitcoin/signet/.cookie"
+    COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/signet/.cookie"
     PORT = TEST_PORT
     SERVER_URL = f"http://localhost:{TEST_PORT}"
     if args.index_sats:
-        INDEX = "/mnt/e/bitcoin/index_signet_sats.redb"
+        INDEX = "/mnt/c/bitcoin/index_signet_sats.redb"
     elif args.index_runes:
-        INDEX = "/mnt/e/bitcoin/index_signet_runes.redb"
+        INDEX = "/mnt/c/bitcoin/index_signet_runes.redb"
     else:
-        INDEX = "/mnt/e/bitcoin/index_signet.redb"
+        INDEX = "/mnt/c/bitcoin/index_signet.redb"
 elif args.testnet:
-    COOKIE_FILE = "/mnt/e/bitcoin/.bitcoin/testnet3/.cookie"
+    COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/testnet3/.cookie"
     PORT = TEST_PORT
     SERVER_URL = f"http://localhost:{TEST_PORT}"
     if args.index_sats:
-        INDEX = "/mnt/e/bitcoin/index_testnet_sats.redb"
+        INDEX = "/mnt/c/bitcoin/index_testnet_sats.redb"
     elif args.index_runes:
-        INDEX = "/mnt/e/bitcoin/index_testnet_runes.redb"
+        INDEX = "/mnt/c/bitcoin/index_testnet_runes.redb"
     else:
-        INDEX = "/mnt/e/bitcoin/index_testnet.redb"
+        INDEX = "/mnt/c/bitcoin/index_testnet.redb"
 elif args.regtest:
-    COOKIE_FILE = "/mnt/e/bitcoin/.bitcoin/regtest/.cookie"
+    COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/regtest/.cookie"
     PORT = TEST_PORT
     SERVER_URL = f"http://localhost:{TEST_PORT}"
     if args.index_sats:
-        INDEX = "/mnt/e/bitcoin/index_regtest_sats.redb"
+        INDEX = "/mnt/c/bitcoin/index_regtest_sats.redb"
     elif args.index_runes:
-        INDEX = "/mnt/e/bitcoin/index_regtest_runes.redb"
+        INDEX = "/mnt/c/bitcoin/index_regtest_runes.redb"
     else:
-        INDEX = "/mnt/e/bitcoin/index_regtest.redb"
+        INDEX = "/mnt/c/bitcoin/index_regtest.redb"
 elif args.index_sats:
-    INDEX = "/mnt/e/bitcoin/index.redb"
+    INDEX = "/mnt/c/bitcoin/index.redb"
 elif args.index_runes:
-    INDEX = "/mnt/e/bitcoin/index_runes.redb"
+    INDEX = "/mnt/c/bitcoin/index_runes.redb"
 elif args.index_sats_and_runes:
-    INDEX = "/mnt/e/bitcoin/index-0.17-with.redb"
+    INDEX = "/mnt/c/bitcoin/index-0.17-with.redb"
 else:
-    INDEX = "/mnt/e/bitcoin/index_no_index.redb"
+    INDEX = "/mnt/c/bitcoin/index_no_index.redb"
 
 command = f"../ord/target/release/ord --bitcoin-data-dir {BITCOIN_DATA_DIR} --cookie-file {COOKIE_FILE} --config-dir {CONFIG_DIR} --index {INDEX}"
 
