@@ -32,12 +32,14 @@ args = parser.parse_args()
 with open(CONFIG_YAML, 'r') as f:
     config = yaml.safe_load(f)
 if args.signet or args.testnet or args.regtest:
+    chain = args.signet and 'signet' or args.testnet and 'testnet' or 'regtest'
+    print("banana", chain)
     #These values need to be updated by user to match their environment
-    COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/signet/.cookie"
+    COOKIE_FILE = f"/mnt/c/bitcoin/.bitcoin/{chain}/.cookie"
     PORT = TEST_PORT
     SERVER_URL = f"http://localhost:{TEST_PORT}"
     
-    config['chain'] = args.signet and 'signet' or args.testnet and 'testnet' or 'regtest'
+    config['chain'] = chain
 else:
     config['chain'] = "mainnet"
 with open(CONFIG_YAML, 'w') as f:
@@ -45,7 +47,7 @@ with open(CONFIG_YAML, 'w') as f:
 
 #command to start the ord server
 #need to update the path to the ord binary
-command = f"../ord/target/release/ord --config {CONFIG_YAML}"
+command = f"../ord/target/release/ord --config {CONFIG_YAML} --cookie-file {COOKIE_FILE}"
 
 if args.server:
     command += f" server --http-port {PORT}"
