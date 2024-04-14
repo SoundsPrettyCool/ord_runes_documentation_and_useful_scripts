@@ -7,7 +7,7 @@ from utils import run_command_with_logging
 BITCOIN_DATA_DIR = "/mnt/c/bitcoin/.bitcoin"
 COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/.cookie"
 CONFIG_DIR = "/mnt/c/bitcoin/.bitcoin/bitcoin.conf"
-INDEX = "/mnt/c/bitcoin/index.redb"
+INDEX = "/mnt/c/bitcoin/banana1.redb"
 PORT = "2222"
 TEST_PORT = "8000"
 SERVER_URL = f"http://localhost:{PORT}"
@@ -63,7 +63,7 @@ elif args.index_sats:
 elif args.index_runes:
     INDEX = "/mnt/c/bitcoin/index_runes.redb"
 elif args.index_sats_and_runes:
-    INDEX = "/mnt/c/bitcoin/index-0.17-with.redb"
+    INDEX = "/mnt/c/bitcoin/index-with.redb"
 else:
     INDEX = "/mnt/c/bitcoin/index_no_index.redb"
 

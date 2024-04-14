@@ -1,0 +1,9 @@
+bitcoin_data_dir: /mnt/c/bitcoin/.bitcoin
+chain: mainnet
+cookie_file: /mnt/c/bitcoin/.bitcoin/.cookie
+index: /mnt/c/bitcoin/index-with.redb
+index_runes: true
+index_sats: true
+config_dir: /mnt/c/bitcoin/.bitcoin/banana.conf
+commit_interval: 1000
+index_cache_size: 32212254720

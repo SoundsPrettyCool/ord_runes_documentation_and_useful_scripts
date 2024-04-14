@@ -12,8 +12,6 @@ def run_command_with_logging(logfile_name, command):
                 if output:
                     line = output.decode().strip()
                     print(line)
-                    logfile.write(line + '\n')
-                    logfile.flush()
     except KeyboardInterrupt:
         print("Process killed")
     finally:

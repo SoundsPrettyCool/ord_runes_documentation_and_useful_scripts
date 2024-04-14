@@ -22,4 +22,5 @@ elif args.regtest:
 
 if args.args:
     command += ' ' + ' '.join(args.args)
+print(command)
 run_command_with_logging("bitcoin_start.log", command)
