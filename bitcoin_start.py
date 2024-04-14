@@ -9,9 +9,12 @@ parser.add_argument("--regtest", help="add -regtest at the end of the script", a
 parser.add_argument('args', nargs=argparse.REMAINDER)  # pass all the arguments after the options
 args = parser.parse_args()
 
+#These values need to be updated by user to match their environment
 DATADIR="/mnt/c/bitcoin/.bitcoin"
 CONF="/mnt/c/bitcoin/.bitcoin/bitcoin.conf"
 
+#command to start the bitcoin server
+#need to update the path to the bitcoind binary
 command = f"../bitcoin-25.0/bin/bitcoind -datadir={DATADIR} -conf={CONF}"
 if args.signet:
     command += " -signet"

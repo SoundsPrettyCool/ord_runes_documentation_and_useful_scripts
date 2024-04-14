@@ -11,13 +11,16 @@ parser.add_argument("--generate", help="generate n blocks", type=int, default=0)
 parser.add_argument('args', nargs=argparse.REMAINDER)  # pass all the arguments after the options
 args = parser.parse_args()
 
+#These values need to be updated by user to match their environment
 DATADIR="/mnt/c/bitcoin/.bitcoin"
 CONF="/mnt/c/bitcoin/.bitcoin/bitcoin.conf"
 COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/.cookie"
 
 if args.signet:
+    #These values need to be updated by user to match their environment
     COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/signet/.cookie"
 if args.regtest:
+    #These values need to be updated by user to match their environment
     COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/regtest/.cookie"
 
 command = f"bitcoin-cli --datadir={DATADIR} --conf={CONF}  --rpccookiefile={COOKIE_FILE}"

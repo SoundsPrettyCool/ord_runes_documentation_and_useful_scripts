@@ -1,7 +1,7 @@
-# useful commands
-- `ps -ef` see running processes on your machine
-- `kill -9 <pid>` kills the process based on the pid
-- `ps -l` see more info about the process.  the s column tells you about the state of the process.  a `D` state tell you that it is in zombie mode. 
+# Intro
+- This is set of scripts that help with running a bitcoin node, bitcoin-cli and the ord server. Each script has environment variables that should be changed to match your environment.  please update these in order for scripts to run successfully.  they are marked with comments in the code.
+# sample commands
+- These are some sample commands that have helped me during my journey of learning ord:
 
 - python3 bitcoin_cli.py --regtest --getbalance
 - python3 bitcoin_cli.py --regtest createwallet banana
@@ -11,5 +11,3 @@
 - python3 ord_server_start.py --regtest --wallet --batch batch_rune_example.yaml --fee-rate 2
 - python3 ord_server_start.py --regtest --wallet --batch batch_rune_example.yaml --fee-rate 2
 - python3 bitcoin_cli.py --regtest generatetoaddress 101 bcrt1phaem0helwmugx3eeuem0lg7f7hj06vc9jxfvevytuxexa9pxcg8s24tjce
-
-# own notes 
