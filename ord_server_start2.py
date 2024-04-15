@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
-
-import subprocess
 import argparse
+import json
 import yaml
 from utils import run_command_with_logging
+with open("ord_constants.json", "r", encoding='utf-8') as f:
+    constants = json.load(f)
 
-#These values need to be updated by user to match their environment
-BITCOIN_DATA_DIR = "/mnt/c/bitcoin/.bitcoin"
-COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/.cookie"
-CONFIG_DIR = "/mnt/c/bitcoin/.bitcoin/bitcoin.conf"
-CONFIG_YAML = "./ord_main.yaml"
-INDEX = "/mnt/c/bitcoin/index-with.redb"
+#constants default to mainnet values
+CONFIG_YAML = constants["CONFIG_YAML"]
 PORT = "2222"
-TEST_PORT = "8000"
+COOKIE_FILE = "/mnt/c/bitcoin/.bitcoin/.cookie"
 SERVER_URL = f"http://localhost:{PORT}"
 
 #arguments passed into the script
@@ -29,23 +26,28 @@ parser.add_argument("--mint", help="specify that you want to mint", action="stor
 parser.add_argument("--rune", help="specify that you want to mint runes", default=None)
 parser.add_argument('args', nargs=argparse.REMAINDER)  # pass all the arguments after the options
 args = parser.parse_args()
-with open(CONFIG_YAML, 'r') as f:
+
+with open(CONFIG_YAML, 'r', encoding='utf-8') as f:
     config = yaml.safe_load(f)
+
+
 if args.signet or args.testnet or args.regtest:
-    chain = args.signet and 'signet' or args.testnet and 'testnet' or 'regtest'
-    print("banana", chain)
-    #These values need to be updated by user to match their environment
-    COOKIE_FILE = f"/mnt/c/bitcoin/.bitcoin/{chain}/.cookie"
-    PORT = TEST_PORT
-    SERVER_URL = f"http://localhost:{TEST_PORT}"
-    
+    chain = args.signet and 'SIGNET' or args.testnet and 'TESTNET' or 'REGTEST'
+    chain_constants = constants[chain]
+
+    #constants are updated here
+    COOKIE_FILE = chain_constants["COOKIE_FILE"]
+    PORT = chain_constants["PORT"]
+    SERVER_URL = f"http://localhost:{PORT}"
+
     config['chain'] = chain
 else:
     config['chain'] = "mainnet"
-with open(CONFIG_YAML, 'w') as f:
+
+with open(CONFIG_YAML, 'w', encoding='utf-8') as f:
     yaml.safe_dump(config, f)
 
-#command to start the ord server
+#command to start the ord binary
 #need to update the path to the ord binary
 command = f"../ord/target/release/ord --config {CONFIG_YAML} --cookie-file {COOKIE_FILE}"
 

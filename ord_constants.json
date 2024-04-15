@@ -1,0 +1,19 @@
+{
+  "MAINNET": {
+    "COOKIE_FILE": "/mnt/c/bitcoin/.bitcoin/.cookie",
+    "PORT": "2222"
+  },
+  "REGTEST": {
+    "COOKIE_FILE": "/mnt/c/bitcoin/.bitcoin/regtest/.cookie",
+    "PORT": "8000"
+  },
+  "SIGNET": {
+    "COOKIE_FILE": "/mnt/c/bitcoin/.bitcoin/signet/.cookie",
+    "PORT": "8000"
+  },
+  "TESTNET": {
+    "COOKIE_FILE": "/mnt/c/bitcoin/.bitcoin/testnet/.cookie",
+    "PORT": "8000"
+  },
+  "CONFIG_YAML": "./ord_main.yaml"
+}
